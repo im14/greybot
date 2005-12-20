@@ -1,0 +1,1 @@
+A zombie process (also known as a "defunct" process) cannot be killed; it's already dead. A zombie is a process which has exited, but whose parent has not yet waited for it (or wait3()ed for it) to collect its exit status. This often signifies a bug in the parent, unless the time of zombification is brief.
