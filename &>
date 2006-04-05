@@ -1,0 +1,1 @@
+A csh feature imported into bash for compatibility. command &> file is equivalent to command > file 2>&1
