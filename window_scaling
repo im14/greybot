@@ -1,0 +1,1 @@
+Users of Linux 2.6.8+ kernels, beware! I live on a part of the Internet behind a router with the TCP window scaling bug, and Linux 2.6.8+ makes it impossible to reach me. Read <http://lwn.net/Articles/92727/> for details and workaround.
