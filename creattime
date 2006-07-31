@@ -1,0 +1,1 @@
+There is no thing like a "creation time" on a UNIX filesystem in general. Some filesystems may provide it, but you would need to ask in the channel of your operating system, how to retrieve that value then.
