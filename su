@@ -1,0 +1,1 @@
+"Switch user". This command either gives you an interactive shell as a different UID, or it allows you to execute a specified command as a different UID. You *do* have to tell it what command you want to run with the other UID, if you're trying to use it in a script. And you MUST give the username! su root -c '/foo/bar baz quux'
