@@ -1,1 +1,0 @@
-[ is NOT PART OF THE IF-SYNTAX. [ is a normal, ordinary COMMAND. the if-statement just checks the exit code of that command. So, it can check the exit code of every other command, too: if grep ^root /etc/passwd; then echo y0; else echo n0; fi :-P
