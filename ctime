@@ -1,0 +1,1 @@
+ctime is NOT creation time! It's (metadata) change time. It's updated whenever a file's ownership, permissions, etc. change. Unix does not store creation time of a file ANYWHERE, at all. There is no way you can possibly know when a file was created, unless you're on a system with nonstandard file system extensions.
