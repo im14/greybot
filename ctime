@@ -1,1 +1,0 @@
-ctime is NOT creation time! It's (metadata) change time. It's updated whenever a file's ownership, permissions, etc. change.
