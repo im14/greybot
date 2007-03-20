@@ -1,0 +1,1 @@
+Process substition: command < <(other command) # Sets up a pipe, socket or other means of IPC (implementation specific), and replaces the <(...) with the filename of that socket. Useful with while read loops to avoid the subshell issue of a pipe.
