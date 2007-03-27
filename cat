@@ -1,1 +1,0 @@
-cat is a tool used to concatenate the contents of several files. It is NOT designed to pipe file data into processes. If you're trying to feed file data to an application, see if the application takes an input file as argument, or use file redirection: command < file
