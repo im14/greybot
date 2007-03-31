@@ -1,1 +1,0 @@
-cat(1) is used to conCATenate multiple files together. It's usually unnecessary in pipelines: ``cat foo | bar'' can be written ``bar < foo'' instead. See also "uuoc".
