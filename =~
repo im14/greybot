@@ -1,0 +1,1 @@
+Binary operator, uses the expression on the right hand side as an extended regular expression and returns true if the expression on the left hand side matches the pattern. example if [[ "foofoo" =~ foo* ]] ; then echo its foo; else echo No foo; fi
