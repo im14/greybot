@@ -1,0 +1,1 @@
+An abbreviation for "laughing out loud", often typed by people who are not doing so. Sometimes used as punctuation, inexplicably. Generally, an indicator of substandard mental facilities. Avoid using "lol" in your online communications unless you want to project the image of an incompetent bumbler.
