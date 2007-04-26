@@ -1,1 +1,0 @@
-a=(0 1 2 3 'one hundred twenty'); for x in "${a[@]}"; do echo "$x"; done; unset a[2]; echo "${a[@]/search/replace}"; see | http://wooledge.org/mywiki/BashFaq#faq43
