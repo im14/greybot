@@ -1,0 +1,1 @@
+Loop: a basic building block of structured programming. A block of code is repeated multiple times. For example: for i in 1 2 3; do echo $i; done
