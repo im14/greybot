@@ -1,1 +1,0 @@
-cat(1) is used to concatenate multiple files together. It should NOT be used to feed file data to processes; there are almost always far better ways to achieve this. The application might take a file as argument (ea. grep ^foo file), or you might want to use file redirection (eg. grep ^foo < file).
