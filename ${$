@@ -1,0 +1,1 @@
+The correct syntax for parameter expansion is ${varMODIFIER} not ${$varMODIFIER}. Remove that second $.
