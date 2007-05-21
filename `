@@ -1,0 +1,1 @@
+The backquote (`) is used in the old-style command substitution, e.g. foo=`command`. This syntax is deprecated in favor of foo=$(command). Backslash handling inside $() is less surprising, and $() is easier to nest. See http://wooledge.org/mywiki/BashFAQ#faq82
