@@ -1,0 +1,1 @@
+This #bash IRC channel is about the bash Unix shell, and is not affiliated with bash.org's quote database (QDB). Please don't fill our backlogs with nonsensical remarks.
