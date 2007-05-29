@@ -1,0 +1,1 @@
+To remove all .svn directories, first check `svn --help export', if you're still convinced: find . -type d -name .svn -exec rm -rf {} \; One way of removing everything else is: find -path '*/.svn' -prune -o -exec rm -rf {} \; See !find to understand how the expressions work.
