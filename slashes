@@ -1,0 +1,1 @@
+You don't always have to use sed 's/foo/bar/'. If bar contains slashes, you can use a different delimiter, like sed 's#foo#bar#'. Any printable character can be used.
