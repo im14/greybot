@@ -1,0 +1,1 @@
+Unix has no folders. It has directories. That's why ls -l shows a "d", not an "f". And why "find -type" uses "d" for directory.
