@@ -1,1 +1,0 @@
-The difference between $@ and $*: without a double quote, no difference at all; they both equal "$1 $2 ...". With double quotes, "$@" is equivalent to "$1" "$2" ..., while "$*" is equivalent to "$1c$2c...", where 'c' is the first character of $IFS. You almost always want "$@".
