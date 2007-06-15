@@ -1,0 +1,1 @@
+foo=file.control.ext; echo ${foo%.control.*}.${foo##*.}
