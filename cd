@@ -1,1 +1,0 @@
-never do cd in a script unless you check if it failed! cd $foo; bad. cd $foo || { echo failed; exit 1; } good.
