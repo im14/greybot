@@ -1,0 +1,1 @@
+''[ a < b ]'' means to run [ with stdin from b and arguments of a and ]. use [[ a < b ]] or [ a \< b ] for lexographical comparisson.
