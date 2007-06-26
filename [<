@@ -1,0 +1,1 @@
+to get STRING comparison you must escape the < in [ a \< b ] otherwise "< b" is intrepreted as a redirection from the file "b". There is no problem with [[ a < b ]]. The same applies to [ a \> b ]
