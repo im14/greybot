@@ -1,0 +1,1 @@
+Either a comment, or in parameter expansion a count of something. ${#x} is the number of characters in $x. ${#x[@]} is the number of elements in the array 'x', and $# is the number of positional parameters.
