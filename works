@@ -1,0 +1,1 @@
+You might think some suggestions appear superfluous, but we aren't making this stuff up. It's risky to parse ls, top and ps, and quotes are important. You care about your script more than we do, so try to understand why we made the suggestion instead of just repeating what seems to work to you.
