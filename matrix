@@ -1,0 +1,1 @@
+You can simulate simple 2-dimensional matrices in bash (which only has 1-dimensional arrays) using tricks, like ${array[i*100+j]} (where "100" can be any suitably large constant).
