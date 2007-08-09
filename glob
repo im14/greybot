@@ -1,0 +1,1 @@
+"Glob" is the common term for a pattern expansion, or "wildcard" expansion. Examples include *.txt (matching filenames); case $foo in *x*) ...; if [[ $foo = y* ]]; and so on.
