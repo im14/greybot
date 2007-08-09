@@ -1,0 +1,1 @@
+for i in *; do echo -n "'$i'"; [[ -f $i ]] && echo || echo " is not a file"; done
