@@ -1,1 +1,0 @@
-Try these commands in a terminal - press Enter where you see ; -- echo *; for i in *; do echo -n "'$i'"; [[ -f $i ]] && echo || echo " - $i is not a file"; done; help test; # :-)
