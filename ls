@@ -1,0 +1,1 @@
+Please never parse, pipe, grep, capture, read, or loop over the output of ls. unlike popular belief, ls is NOT designed to enumerate files. Using ls for this is dangerous and there's always a better way (for example, GLOBS!). See http://wooledge.org/mywiki/BashPitfalls
