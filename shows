@@ -1,0 +1,1 @@
+When using the word "shows" make sure you make it clear where the information is being "shown". Is it going to the terminal on stdout or stderr? Is it going into a file? is it already in a file? is it in a pipe? etc..
