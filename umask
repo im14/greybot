@@ -1,0 +1,1 @@
+Remember umask sets a *mask* ie it turns things off. 7-perm in octal is the same as clearing the bits in binary.
