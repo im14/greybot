@@ -1,0 +1,1 @@
+Sed is a Stream EDitor, used as a filter in pipelines. It's NOT primarily useful to edit files in a script (use ed(1) or vi(1) instead). See http://www.student.northpark.edu/pemente/sed/sed1line.txt, http://sed.sourceforge.net/sedfaq.html, http://wooledge.org/mywiki/BashPitfalls, http://www.grymoire.com/Unix/Sed.html, http://catonmat.net/download/sed.stream.editor.cheat.sheet.txt
