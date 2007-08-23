@@ -1,1 +1,0 @@
-"Glob" is the common term for a pattern or "wildcard" matching. Examples include *.txt (matching filenames); case $foo in *x*) ...; if [[ $foo = y* ]]; and so on. http://wooledge.org/mywiki/glob
