@@ -1,0 +1,1 @@
+NO, bash does NOT have anything like perl's "redo" block. Which as far as I can tell is simply a "goto the top of the loop". And no, bash doesn't have goto either.
