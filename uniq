@@ -1,0 +1,1 @@
+uniq is a utility for removing or reporting repeated lines. uniq will only work effectively with sorted input. For an less order-sensitive alternative, try Ed Morton's awk '!s[$0]++'.
