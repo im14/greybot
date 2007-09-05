@@ -1,0 +1,1 @@
+Bash has no 'goto', and no labels. You must use loops, functions, etc.
