@@ -1,1 +1,0 @@
-You can't realistically parse XML in a bash script using sed, grep, cut, awk, or parameter expansion. XML has dedicated libraries, which you need. Try using a tool like xslt(?) or perl's XML modules.
