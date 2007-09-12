@@ -1,0 +1,1 @@
+to enter a newline on the command line for sed : echo "hello my friends" | sed $'s| my |\\\n|' << the $ in front of the singlequotes makes bash expand the \n to a newline... the \\ expands to a literal \, that escapes the newline for sed
