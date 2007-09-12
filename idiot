@@ -1,1 +1,0 @@
-<Zamer> I want to list all the files in the current directory, and display them <Zamer> with a 'for i in $(ls -A); do echo "$i"; done' i have a problem: files containing a space a splitted
