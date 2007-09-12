@@ -1,0 +1,1 @@
+Bash can behave in very different ways depending on how you start it. Please tell us if your script is being invoked by any command or shebang different from /bin/bash, even if it's a symlink to /bin/bash.
