@@ -1,0 +1,1 @@
+help set <ENTER> http://www.bash-hackers.org/wiki/doku.php?id=commands:builtin:set -- set +H is useful; -evx are very good for debugging.
