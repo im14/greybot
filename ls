@@ -1,1 +1,0 @@
-Please never parse, pipe, grep, capture, read, or loop over the output of 'ls' or 'find'. Unlike popular belief, 'ls' is NOT designed to enumerate files or parse statistics on them. Using 'ls' for this is dangerous (word splitting) and there's always a better way (for example, globs or find and especially stat). See http://wooledge.org/mywiki/BashPitfalls
