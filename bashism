@@ -1,1 +1,0 @@
-Something specific to bash eg "${a[@]: -10:}" or while read -r l; do ...; done < <(cmd|aslongas|yourarm) # learning these will make you l77t (not ;)
