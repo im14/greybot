@@ -1,0 +1,1 @@
+help shopt <ENTER> http://www.bash-hackers.org/wiki/doku.php?id=internals:shell_options -- nullglob and extglob are most common. dotglob and nocasematch can be handy too.
