@@ -1,0 +1,1 @@
+If you want processes to communicate, the easiest way (besides a pipe) is to use signals. See ''help trap'' | http://bash-hackers.org/wiki/doku.php?id=patch:helptexts#trap and http://wooledge.org/mywiki/ProcessManagement
