@@ -1,1 +1,0 @@
-${1} is lame, as is cd ${WORKDIR} :) You only need braces if there's another char after which would be seen as part of var name, or if you're doing pe/arrays. Try /msg greybot pe. array is cool too :) And don't forget quotes!
