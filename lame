@@ -1,0 +1,1 @@
+for f in *.wav; do lame "$f" "${f%.wav}.mp3"; done
