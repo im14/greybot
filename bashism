@@ -1,0 +1,1 @@
+Something specific to BASH eg: mkdir $(for ((i=1; i<=31; i++)); do printf "2007_08_%02d\n" $i; done))) # or: myCmd=(cmd -i "with ${strange[: -10:]} params" "$file"); while read -r l; do echo Line $((i++))": $l"; done < <("${myCmd[@]}"|sed '/^#/d')
