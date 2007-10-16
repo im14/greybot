@@ -1,0 +1,1 @@
+The POSIX standard defines what any modern unix should supply. Sticking to the commands and options in http://www.opengroup.org/onlinepubs/009695399/utilities/contents.html will do wonders for the portability of your scripts. Be aware of http://refspecs.linux-foundation.org/LSB_3.1.0/LSB-Core-generic/LSB-Core-generic/cmdbehav.html if you're on Linux.
