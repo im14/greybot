@@ -1,0 +1,1 @@
+The stat(1) command, while lovely and all, is GNU/Linux specific. (And not even portable, option-wise, between older and newer GNU systems.) Great if you have it, but you can't count on it being present or having any specific flag.
