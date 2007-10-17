@@ -1,0 +1,1 @@
+Braces around variable names do not take the place of quotes, and are unnecessary unless the var name would otherwise be misread, eg "${size}Kb", or you are using arrays or parameter expansion like "${foo%.mp3}". mv ${file} ${newFile} is *unsafe* it should be mv "${file}" "${newFile}" or, more simply, mv "$file" "$newFile"
