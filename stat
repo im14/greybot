@@ -1,1 +1,0 @@
-Use stat instead of ls. Its much easier to parse, and its safer and more deterministic as well.
