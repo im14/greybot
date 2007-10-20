@@ -1,0 +1,1 @@
+seq() { local i FIRST=1 INCREMENT=1 LAST=1; case $# in 3) FIRST=$1 INCREMENT=$2 LAST=$3;; 2) FIRST=$1 LAST=$2;; 1) LAST=$1;; esac; i=$FIRST; while [ $i -le $LAST ]; do echo $i; let i+=$INCREMENT; done; }
