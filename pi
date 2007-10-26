@@ -1,0 +1,1 @@
+echo 'scale=68; a(1)*4'|bc -l
