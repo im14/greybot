@@ -1,0 +1,1 @@
+echo with option -e interprets backslashed special characters. Pay attention to use single quotes when literally using backspashed sequences with echo -e (\n, \t, etc). Example: echo -e '\n\n\n' prints fours linefeeds (sic).
