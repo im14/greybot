@@ -1,0 +1,1 @@
+Invoke bc, awk, or dc to do floating calculations from bash. bash does not do floating calculations directly.
