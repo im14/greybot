@@ -1,0 +1,1 @@
+export $(locale); unset LC_ALL # and then override whatever you want like LC_COLLATE (if you *really* have to.) DO NOT override LC_CTYPE.
