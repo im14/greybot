@@ -1,0 +1,1 @@
+GNU documentation is often not in the form of manpages (which would be nice, cf ''man bash'') but rather in info, so one types eg ''info make''. pinfo is a useful utility.
