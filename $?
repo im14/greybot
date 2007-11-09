@@ -1,0 +1,1 @@
+$? is "exit status" of previous command, also known as "return status". It is integer number between 0 and 127 if command did not terminate by signal, and larger than that if terminated by signal. Value 0 means success, non-zero value means some kind of error.
