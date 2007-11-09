@@ -1,1 +1,0 @@
-$? is exit status of previous command. Value 0 means success, non-zero value means some kind of error.
