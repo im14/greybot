@@ -1,0 +1,1 @@
+is a bash-specific feature, unportable to other shells. command &> file is equivalent to command > file 2>&1. There is no &>>. Use command >> file 2>&1 instead.
