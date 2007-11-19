@@ -1,0 +1,1 @@
+if <COMMAND>; then <COMMAND>; fi | http://bash-hackers.org/wiki/doku.php/syntax/ccmd/if_clause
