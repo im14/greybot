@@ -1,0 +1,1 @@
+as while read -r; do my-command "$REPLY"; done < inputfile; or, portably: while IFS='' read -r line; do my-command "$line"; done < inputfile
