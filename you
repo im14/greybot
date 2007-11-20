@@ -1,1 +1,0 @@
-can't realistically parse XML using Bash or utilities such as grep, sed or cut. Considder migrating to a language that has libraries for this or take a look at XSLT and XPath (See the XML-XPath package).
