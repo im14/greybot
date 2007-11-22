@@ -1,0 +1,1 @@
+Retrieving file metadata and doing it in a portable fashion is very difficult. If at all possible; you should use test instead. If you really need the actual metadata; considder the non-portable stat(1) or the dangerous-to-parse ls(1).
