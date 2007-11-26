@@ -1,1 +1,0 @@
-nullglob is one of the most useful shell options (help shopt) which stops non-matching globs from expanding to the pattern. eg: shopt -s nullglob; dir=~; for i in *.doc *.txt; do echo cp "'$i'" "'$dir'"; done
