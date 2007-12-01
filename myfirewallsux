@@ -1,0 +1,1 @@
+If your firewall or proxy blocks outgoing tcp port 8000 (preventing you from reading the wooledge.org wiki), you can get single pages using this URL scheme: http://wooledge.org/myfirewallsux/PageName. Note, however, that the resulting page will have broken hyperlinks on it.
