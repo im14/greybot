@@ -1,0 +1,1 @@
+Please don't make us do this: while : ; do wget -O/dev/null -o/dev/null http://www.<yourSpammyDomain>.com/ ; done
