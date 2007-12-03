@@ -1,1 +1,0 @@
-Flat files hmm.. man sort (key -k) cut join paste comm - and think about TAB separated, or even $'\037' -- see http://www.asciitable.com/ | A Text/BLOB field is called a ``file.'' ;) See /msg greybot awk # if you need to do more.
