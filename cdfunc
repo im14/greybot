@@ -1,0 +1,1 @@
+cd() { builtin cd "$@" && return; echo "Unable to cd to $@"; exit 1; }
