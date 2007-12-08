@@ -1,0 +1,1 @@
+cd() { builtin cd "$@" && return; die 1 "Unable to cd to $@"; } (see !diefunc)
