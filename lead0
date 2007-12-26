@@ -1,0 +1,1 @@
+printf "%03d\n" {1..300} # Bash 3 brace expansion, printf autoloops! see FAQ 18
