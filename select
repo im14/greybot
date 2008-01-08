@@ -1,0 +1,1 @@
+''help select'' eg: foo() { local f PS3='Q to quit. File #? '; select f in *; do [[ $f ]] && break; [[ $REPLY = [qQ]* ]] && return; done; cmd -on "$f"..
