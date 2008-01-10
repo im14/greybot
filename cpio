@@ -1,0 +1,1 @@
+find . -name '*.txt' -print | cpio -o | gzip -9 > /backups/mybackup-$(date +%Y%m%d).cpio.gz # use -print0 and cpio -0 if your OS supports both of those
