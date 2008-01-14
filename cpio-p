@@ -1,0 +1,1 @@
+"cpio -p" is pass-through copying, used to duplicate a hierarchy. E.g., find . -name '*.txt' -print0 | cpio -pad -0 /destination
