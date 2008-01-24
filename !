@@ -1,0 +1,1 @@
+If you have errors like !": event not found when you try to use commands with ! in them interactively, put "set +o histexpand" in your .bashrc to disable csh-style history expansion. See <http://bugs.debian.org/135402>.
