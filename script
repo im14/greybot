@@ -1,0 +1,1 @@
+use any editor, open a new file, place the commands in the file one per line, place #!/bin/bash as the first line, save and close the file, do "chmod +x filename" OK, now you can run that file as a script.
