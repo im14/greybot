@@ -1,0 +1,1 @@
+for f in *; do stuff -with "$f"; done # will cope with *any* filename. http://wooledge.org/mywiki/glob
