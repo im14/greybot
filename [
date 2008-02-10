@@ -1,0 +1,1 @@
+[ is NOT part of the `if' syntax. [ is a normal, ordinary COMMAND. The if-statement just checks its exit code. See ''help test'', http://wooledge.org/mywiki/BashGuide#Bash_Tests and http://partmaps.org/era/unix/award-example-backticks.html
