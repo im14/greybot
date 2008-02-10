@@ -1,0 +1,1 @@
+lookup() { if (($#==2)); then man "$1" -P "less -p '$2'"; else echo 'ohNoes!' >&2; fi; }
