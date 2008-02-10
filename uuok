@@ -1,0 +1,1 @@
+Useless Use of Kill -9 aka -SIGKILL. See: http://partmaps.org/era/unix/award.html#uuk9letter for the correct way to bring down a process.
