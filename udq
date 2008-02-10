@@ -1,0 +1,1 @@
+USE DIFFERENT QUOTES! The shell won't expand variables or globs inside a single-quoted string, try double-quotes instead
