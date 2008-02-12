@@ -1,1 +1,0 @@
-`cmd args` and $(cmd args) are two forms of "command output substirution". Both forms insert standard output of the cmd into bash command line
