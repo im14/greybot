@@ -1,0 +1,1 @@
+Pipes connect the (standard) output of one command with the (standard) input of another. The command on the right hand side is executed in a subshell. Avoid pipes if you can for performance reasons and possibly unintended side-effects introduced by this subshell.
