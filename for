@@ -1,1 +1,0 @@
-for var in $something -- For is a bash construct that iterates over words. In this example, the content of 'something' is split up into words removing all whitespace. For then puts each of those "words" into 'var', one at a time. DO NOT USE 'for' FOR READING SOMETHING THAT IS LINE-BASED!
