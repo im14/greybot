@@ -1,0 +1,1 @@
+To use sudo commands in a script (without prompting for a password), put something like this into the sudoers(5) file: username ALL = NOPASSWD: /some/program
