@@ -1,0 +1,1 @@
+Vi is an editor. Use it in scripts like this: vi -c 's/foo/bar/|x' file -- See http://www.opengroup.org/onlinepubs/009695399/utilities/vi.html
