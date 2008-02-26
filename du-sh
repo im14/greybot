@@ -1,0 +1,1 @@
+"du -sh" gives you so-called "human-readable" output, but you can't SORT by that. Use "du -sk" to generate data you can sort by. If you need to convert that perfectly good machine-and-human-readable kilobyte data into "-h" format, use: awk '{if ($1>1024**2) $1=$1/1024**2 "G"; else if ($1>1024) $1=$1/1024 "M"; else $1=$1 "K"; print}'
