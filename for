@@ -1,1 +1,0 @@
-for var in $(something) -- 'for' is a bash construct that iterates over words. The output of the command 'something' is split up into "words" REMOVING ALL whitespace. 'for' then puts each of those "words" into 'var', one at a time. 'for' should NOT be used for reading something that is line-based! See http://bash-hackers.org/wiki/doku.php?id=syntax:ccmd:classic_for
