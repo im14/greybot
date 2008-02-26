@@ -1,1 +1,0 @@
-vi +'s/foo/bar/|x' file | http://www.opengroup.org/onlinepubs/009695399/utilities/vi.html
