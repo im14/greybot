@@ -1,0 +1,1 @@
+echo $VAR -- If you do not quote $VAR bash will split its content up into words, removing ALL whitespace (newlines, spaces, tabs), and feed each "word" as a separate argument to echo. Echo then concatenates all its arguments separating them by ONE single space.
