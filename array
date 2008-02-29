@@ -1,0 +1,1 @@
+Arrays RULE! See http://wooledge.org/mywiki/BashFAQ/005 -- and remember, "${arr[@]}" works like "$@".
