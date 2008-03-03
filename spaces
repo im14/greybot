@@ -1,0 +1,1 @@
+You need SPACES in between your commands and arguments. E.g.: if [ ! -d "$dir" ] **NOT** if [!-d "$dir] etc.
