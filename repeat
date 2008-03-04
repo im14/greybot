@@ -1,1 +1,0 @@
-repeat() { local i n; n=$1; shift; for ((i=i; i<=n; i++)); do "$@"; done; }
