@@ -1,1 +1,0 @@
-'expr' is a program used in ancient shell code to do math. In bash, use '(( expression ))' or 'let expression'.
