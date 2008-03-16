@@ -1,0 +1,1 @@
+If you're considdering removing .svn directories, first read "svn --help export". If you're still convinced: find . -depth -name .svn -exec rm -rf {} \; To remove everything but the svn directories: find . -depth -name .svn -prune -o -exec rm -rf {} \;
