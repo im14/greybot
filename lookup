@@ -1,0 +1,1 @@
+lookup() { local l; case $# in 0) return;; 1) l=bash;; *) l=$1; shift;; esac; man "$l" -P "less -p '$*'"; } # lookup 'Parameter Expansion' or lookup bash Parameter Expansion
