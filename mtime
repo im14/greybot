@@ -1,0 +1,1 @@
+File modification time. Marks the most recent time the file was created *or* its contents changed. While mtime is not a 'creation time', a file is not likely to be created after its mtime unless manual mtime tampering was done
