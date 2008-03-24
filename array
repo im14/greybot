@@ -1,0 +1,1 @@
+With arrays you can enumerate elements without an explicit delimiter (like space or newline). They cannot provide any 'associative' or 'hash' behavior. If you really think you need this, use awk. http://wooledge.org/mywiki/BashFAQ/005 -- and remember, "${arr[@]}" works like "$@"
