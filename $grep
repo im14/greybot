@@ -1,0 +1,1 @@
+DON'T put commands into variables to make them "configurable". If you ever change it from anything other than GREP='grep' you probably need to change the rest of the script ANYWAY. If you really need this use a function, like grep() { grep --stupid-options "$@"; }
