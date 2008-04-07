@@ -1,0 +1,1 @@
+Don't feed several arguments to a command by putting them all in one variable. Use an array, for example: myargs=( -arg1 -arg2 "arg 3" ), and expand them with COMMAND "${myargs[@]}".
