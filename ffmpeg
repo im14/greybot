@@ -1,1 +1,0 @@
-ffmpeg has some crazy logic when it isn't attached to a terminal, commonly encountered when using a 'while read' loop around it. try ffmpeg </dev/null
