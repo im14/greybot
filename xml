@@ -1,0 +1,1 @@
+You can't parse XML only with Bash or utilities such as grep, sed or cut. Try using tidy+(xmlstarlet|xmlgawk|xpath).
