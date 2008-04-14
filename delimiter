@@ -1,0 +1,1 @@
+Use arrays to store a list of values, instead of using a single variable and relying on spaces (or other characters) as delimiters. See http://wooledge.org/mywiki/BashFAQ/005 and !faq 50.
