@@ -1,0 +1,1 @@
+To read filenames into an array from find use: while read -rd ''; do arr+=("$REPLY"); done < <(find dir ... -print0)
