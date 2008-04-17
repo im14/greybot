@@ -1,0 +1,1 @@
+Seventh Edition Unix (V7, 1979), introduced the Bourne shell, which replaced the earlier Thompson shell. If your script needs to work on pre-POSIX Unix systems, V7 is a good portability target. A full tree of V7, including source and man pages, may be found at http://minnie.tuhs.org/UnixTree/V7/ .
