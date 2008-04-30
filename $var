@@ -1,0 +1,1 @@
+$var is NOT a variable. var is a variable and $var is the EXPANSION of that variable. bash replaces it by the contents of the variable var.
