@@ -1,0 +1,1 @@
+Unsafe Use of Kill: kill -9 sends SIGKILL to a process which is the exact same thing as normal kill (SIGTERM), except that it prevents the process from cleaning up after itself. You do NOT want to use it. See http://partmaps.org/era/unix/award.html#uuk9letter
