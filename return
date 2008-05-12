@@ -1,0 +1,1 @@
+UNIX commands can return unsigned bytes [0-255], but those values are traditionally indicators of the success or failure of the returning procedure. The exit status of the most recent is $?. You cannot 'return' non-unsigned-byte values. (hint: echo)
