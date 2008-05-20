@@ -1,0 +1,1 @@
+Builtins are commands that are built into bash. You cannot run them from outside bash. They do not have man pages but are explained in man bash. They also have a help page: ''help [builtin-name]''
