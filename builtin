@@ -1,1 +1,0 @@
-If a command seems really useful, and it's not in man -k <cmd>, it might well be a builtin. Try eg help exit <ENTER> at your terminal.
