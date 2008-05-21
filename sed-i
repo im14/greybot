@@ -1,0 +1,1 @@
+Unix sed has no -i flag. You can use perl or ed to edit files in-place in portable scripts. See http://wooledge.org/mywiki/BashFAQ/021 or /msg greybot ed
