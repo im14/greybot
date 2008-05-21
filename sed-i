@@ -1,1 +1,0 @@
-Unix sed has no -i flag. Only GNU sed 4.x does. You can use ed or perl to edit files in-place in portable scripts. See <http://wooledge.org/mywiki/BashFAQ#faq21> for s///. For /foo/d you can use perl -ni -e 'print unless /foo/' *
