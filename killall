@@ -1,0 +1,1 @@
+killall is dangerous and unportable. On some systems it tries to kill every process. Use pkill instead.
