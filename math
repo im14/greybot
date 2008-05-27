@@ -1,0 +1,1 @@
+((a=$a+7)) # Adds 7 to variable a; ((a = a + 7)); # does the same, as does : ((a += 7)) ; see http://wooledge.org/mywiki/ArithmeticExpression for much more
