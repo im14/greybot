@@ -1,1 +1,0 @@
-command < file > file: ''file'' will get truncated because '>file' truncates a file before writing to it. Because of this, < file won't be able to read anything from it.
