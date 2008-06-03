@@ -1,1 +1,0 @@
-is NOT part of the `if' syntax. It's a normal, ordinary COMMAND. The `if' just checks its exit status. See ''help test'', http://wooledge.org/mywiki/BashGuide/Practices/BashTests and http://partmaps.org/era/unix/award-example-backticks.html
