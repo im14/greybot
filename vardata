@@ -1,0 +1,1 @@
+Variables contain data. Do NOT put bash commands in them; they belong in scripts. Also, do not put more than one filename in a string; use an array instead.
