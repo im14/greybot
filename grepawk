@@ -1,0 +1,1 @@
+Awk can do almost everything grep can do. Instead of doing grep 'foo' | awk '{ statement }', try awk '/foo/{ statement }'
