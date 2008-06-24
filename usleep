@@ -1,0 +1,1 @@
+echo "int main(int argc,char *argv[]){if(argc==2)usleep(atol(argv[1]));}" > usleep.c; make usleep
