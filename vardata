@@ -1,0 +1,1 @@
+1. Do NOT put commands or variable names INSIDE variables; use a function or write it out in your script. 2. Do NOT put multiple filenames inside a string; use arrays. 3. Remember to quote every expansion of your variables to protect their data.
