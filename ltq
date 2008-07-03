@@ -1,0 +1,1 @@
+Learn to quote. It is probably the most important shell scripting skill you will ever need. You should quote every parameter expansion (eg. echo "$foo" > "$bar") and every string that contains shell metacharacters which you really just want to pass literally to the application (eg. find /foo -name '*.bar').
