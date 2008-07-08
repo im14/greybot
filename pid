@@ -1,0 +1,1 @@
+Process ID: An integer that identifies a single process on a POSIX system. Using PIDs for checking whether a process is running is flawed (they're really not good for anything other than managing the current process' children) because of race conditions and the fact that PIDs are recycled by the kernel.
