@@ -1,0 +1,1 @@
+There are two kinds of variables: Environment Variables (''env'') and Bash Parameters (''set''). Every process has the former; and they are inherited by its children. Bash creates a parameter for each env var it has, and with ''export'' you can "link" other bash parameters to env vars of the same name.
