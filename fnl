@@ -1,0 +1,1 @@
+Filenames are NOT lines! One filename can be several lines of text! Do not use line-based tools such as awk, grep, cut, wc, sed, etc. on them! Use globs and arrays or a for loop instead or find .. -exec.
