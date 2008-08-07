@@ -1,0 +1,1 @@
+Bash cannot do associative arrays, floating point math, or pass-by-reference functions. Any attempt to disprove this will result in serious hacks.
