@@ -1,1 +1,0 @@
-Quoting 101: Use "double quotes" around variables like "$foo". Use 'single quotes' to make everything lose its special meaning. To do complicated things, use 'single quotes with "double quotes" inside them'. Use '\'' to represent a single quote inside 'single quotes'.
