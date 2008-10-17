@@ -1,0 +1,1 @@
+strace(1) is a linux tool for viewing the system calls applications make. It is invaluable for debugging more complex or stubburn problems. On certain other systems, dtruss(1) might achieve the same thing. To use it, just put strace/dtruss in front of your command.
