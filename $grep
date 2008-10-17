@@ -1,1 +1,0 @@
-DON'T put commands into variables to make them "configurable" or "advanced". If you ever need to configure, say, WC='wc' to something else you'll probably need to change the rest of your script ANYWAY, so why bother? If you're doing something like LS='ls -1' use a function instead: myls() { ls -1 "$@"; }
