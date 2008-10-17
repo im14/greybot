@@ -1,0 +1,1 @@
+What is the point of doing things like: "$GREP" "$OPTIONS" "$MINUS_E" "$EXPRESSION" "$FILE"? It doesn't make your program more configurable or easy to use, and your OPTIONS variable probably doesn't work. See http://wooledge.org/mywiki/BashFAQ/050
