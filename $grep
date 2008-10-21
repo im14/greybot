@@ -1,0 +1,1 @@
+''$GREP $args $file'' -- Do NOT put command names or options in variables. You don't gain ANYTHING from making 'GREP' configurable, when replacing it with something else you'll need to change the whole command line ANYWAY. Commands like that belong in a *function*. See http://wooledge.org/mywiki/BashFAQ/050
