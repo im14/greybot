@@ -1,0 +1,1 @@
+Pipes are used to send the (standard) output of one process to the (standard) input of another. foo | bar runs a process foo, sends its output on FD 1 to a process bar's input on FD 0. Note that foo and bar are executed in subshells; so changing variables inside pipes will have no effect on the variables in your main script.
