@@ -1,1 +1,0 @@
-Setting the -x option on bash enables a debugging mode that makes bash output every statement before executing it. Set it by starting a script with ''bash -x ./myscript'' or putting ''set -x'' somewhere in your script. ''set +x'' turns this behaviour off.
