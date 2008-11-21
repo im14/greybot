@@ -1,0 +1,1 @@
+One must ''source'' (or "dot in") a file in order to change variables, working directory, etc. in one's current shell. Child processes (scripts) cannot affect their parents. See http://wooledge.org/mywiki/BashFAQ/060 for more details.
