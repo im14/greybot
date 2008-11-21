@@ -1,1 +1,0 @@
-You have to source/ dot in a file that changes your variables, or current working directory, because child processes cannot affect their parents. See ''help source'' and http://wooledge.org/mywiki/BashFAQ#faq60 for more details.
