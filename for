@@ -1,1 +1,0 @@
-The statement ''for var in ..'' iterates over WORDS. Do NOT use it to iterate over output of an application that is not strictly words (like filenames!). for ((i=0; i < n; i++)) is the C-like syntax to iterate over a numeric range.
