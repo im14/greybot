@@ -1,0 +1,1 @@
+The ''for var in ..'' statement iterates over arguments. for ((i=0; i < n; i++)) iterates over a numeric range. To iterate over filenames, use ''for file in [glob]''. Do *NOT* do ''for foo in `...`'': For will iterate over resulting WORDS, NOT the "filenames", or "lines" that the command outputs.
