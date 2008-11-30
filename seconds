@@ -1,1 +1,0 @@
-"If you want to do timings in your script, you can be more accurate if you invoke date once, and then you can use $SECONDS for further updates"
