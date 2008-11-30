@@ -1,0 +1,1 @@
+"If you want to do timings in your script, you can use $SECONDS, it is continuously updated."
