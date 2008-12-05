@@ -1,1 +1,0 @@
-Regular Expressions. Most people don't actually want regexes; they want EXTENDED regexes, with things like \s and so on. See http://www.faqs.org/docs/abs/HTML/regexp.html and http://www.grymoire.com/Unix/Regular.html and http://www.regular-expressions.info/
