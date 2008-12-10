@@ -1,1 +1,0 @@
-Here strings. Similar to here documents (<<), the word after the <<< is passed as standard input to a command (and a newline is always added). Example: read a b c <<< "$sentence"
