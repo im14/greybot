@@ -1,1 +1,0 @@
-strings. Similar to here documents: The word after <<< and a newline are passed to the standard input of a command. Example: ''command <<< "some sentence"'' (Like ''echo "some sentence" | command'', but without the overhead of the subshell)
