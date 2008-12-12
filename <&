@@ -1,0 +1,1 @@
+&> is a shortcut amalgam of >file 2>&1. It is purely bash, and nonstandard in every way. There is no &>>, and there is no <&, either
