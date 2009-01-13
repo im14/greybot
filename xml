@@ -1,0 +1,1 @@
+You can't realistically parse XML with base or line-based tools like grep/sed/cut. Try xmlstartlet, xmlgawk, xsltproc, xmllint, or switch to another language. Ask channel #xml for more possibilities.
