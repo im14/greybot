@@ -1,0 +1,1 @@
+while IFS= read -r -d '' file; do something "$file"; done < <(find /foo -print0)
