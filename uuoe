@@ -1,0 +1,1 @@
+Unnecessary use of echo -- The syntax `echo foo | bar` uses a pipe, which is expensive. Use a here string instead: `bar <<< foo`
