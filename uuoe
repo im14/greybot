@@ -1,0 +1,1 @@
+Unnecessary use of echo -- "echo foo | bar" uses a pipe, which generates an implicit subshell, which changes the variable scope. Pipes are also expensive. Use a here string instead: "bar <<< foo". See http://wooledge.org:8000/BashPitfalls
