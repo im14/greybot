@@ -1,0 +1,1 @@
+ssh remote dd of=file.on.remote < /dev/sda
