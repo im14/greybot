@@ -1,0 +1,1 @@
+# ((FULLSECONDS=1234567890-$(date +%s), DAYS=FULLSECONDS/86400, HOURS=(FULLSECONDS%86400)/3600, MINUTES=((FULLSECONDS%86400)%3600)/60)); echo "Don't forget to celebrate @1234567890! $DAYS day(s), $HOURS hour(s) and $MINUTES minute(s) remaining. http://www.thebonsai.net/2009/01/20/celebrate-1234567890/"
