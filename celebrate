@@ -1,0 +1,1 @@
+# ((FULLSECONDS=1234567890-$(date +%s), HOURS=(FULLSECONDS)/3600, MINUTES=((FULLSECONDS%86400)%3600)/60)); echo "Celebrate @1234567890! ${HOURS}h ${MINUTES}m remaining. http://www.thebonsai.net/2009/01/20/celebrate-1234567890/"
