@@ -1,0 +1,1 @@
+COLUMNS and LINES are set to reflect the terminal's size, but bash does not set these values by default; furthermore it does not export them. If you really need them to be correct and up-to-date, use shopt -s checkwinsize and export COLUMNS and/or LINES. See also http://mywiki.wooledge.org/BashFAQ/091
