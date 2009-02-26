@@ -1,1 +1,0 @@
-Use pgrep instead of ps to get PIDs.
