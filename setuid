@@ -1,0 +1,1 @@
+Bash drops setuid, and Linux disables setuid for scripts. Use sudo or a C wrapper if you must.
