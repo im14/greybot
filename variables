@@ -1,0 +1,1 @@
+as To see all your shell variables (in a recent enough bash): eval echo '${!'{{a..z},{A..Z},_}'*}'
