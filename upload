@@ -1,0 +1,1 @@
+If you're asking "How can I find all the files that have been uploaded recently?" then you're probably in deep trouble. The server side can't tell when a file is finished uploading unless the client renames it or uploads an "all done" file afterward.
