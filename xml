@@ -1,1 +1,0 @@
-You can't realistically parse XML with bash or with line-based tools like grep/sed/cut. Try xmlstarlet, xmlgawk, xsltproc, xmllint, or switch to another language. Ask channel #xml for more possibilities.
