@@ -1,0 +1,1 @@
+&; is always wrong. If you want to run things in the background in a compact one-liner just use & between commands, and omit the ; entirely. See http://mywiki.wooledge.org/BashPitfalls
