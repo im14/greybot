@@ -1,0 +1,1 @@
+Sometimes whitespace is necessary, eg after [ and [[ and before ] and ]]. Othertimes it breaks stuff eg in {1..9}
