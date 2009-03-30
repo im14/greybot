@@ -1,0 +1,1 @@
+Standard Input is the file descriptor from which commands can read input. See !stdout !stderr and !redirtut for more info.
