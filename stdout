@@ -1,0 +1,1 @@
+Standard Output is the primary file descriptor to which commands print to the terminal. See !stderr !stdin and !redirtut for more info.
