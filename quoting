@@ -1,1 +1,0 @@
-Quoting 101: Use "double quotes" to allow parameter expansions like "$foo", "$@", "Your name: $name". Use 'single quotes' to make everything literal (including $ and \). You can nest "'single quotes' inside double quotes" and vice versa. You can't put single quotes inside single quotes; so nest them in double quotes or do this: 'Don'\''t forget to quote!'
