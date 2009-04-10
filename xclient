@@ -1,0 +1,1 @@
+In order to run an X client program from outside an X session, you need two things: a valid DISPLAY variable (export it in your script), and a means of authenticating to the X server. The latter can often be done with "export XAUTHORITY=~whomever/.Xauthority". The former requires witchcraft.
