@@ -1,0 +1,1 @@
+$ lftp myname@server/some/directory -e 'mput *.gif; quit' # Read "man netrc" to learn how to store your password as cleartext in a file, and read http://mywiki.wooledge.org/FtpMustDie
