@@ -1,1 +1,0 @@
-die() { local x="$1"; shift; echo "$@" >&2; exit "$x"; }
