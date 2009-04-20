@@ -1,0 +1,1 @@
+die() { local x="$1"; shift; printf "$@" >&2; exit "$x"; }
