@@ -1,0 +1,1 @@
+Standard Error is the secondary file descriptor to which commands print to the terminal. It's meant for messages that shouldn't be parsed by default. Redirect to stderr: '>&2'. See !stdout !stdin and !redirtut for more info.
