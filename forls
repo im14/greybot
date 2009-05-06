@@ -1,0 +1,1 @@
+Don't use "for i in `ls *.mp3`": http://mywiki.wooledge.org/BashPitfalls#for_i_in_.60ls_.2A.mp3.60
