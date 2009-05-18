@@ -1,0 +1,1 @@
+echo $foo; rm $foo -- If you leave $foo unquoted, bash will *remove* all whitespace (newlines, spaces, tabs) while expanding it, take each *word* as a separate argument. `echo` prints these words separated by one space and `rm` deletes each word. So ALWAYS *quote* your parameter expansions: echo "$foo"
