@@ -1,0 +1,1 @@
+Bash functions don't really "return" a computational result. They return a "success or failure" code, 0 to 255 inclusive (cf. "exit"). If you need to return real information from a function to its caller, see http://mywiki.wooledge.org/BashFAQ/084
