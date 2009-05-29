@@ -1,0 +1,1 @@
+has() { local IFS=$'\a' t="$1"; shift; [[ $'\a'"$*"$'\a' == *$'\a'$t$'\a'* ]]; } # usage: if has "element" list of items; then ...; fi
