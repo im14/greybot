@@ -1,0 +1,1 @@
+Bash does the "rightstr" operation using the PE capabilities. here is a Bash rightstr function: rightstr(){ echo ${1:$(( 0 - $2 ))} ; } Usage is rightstr "somestring" <count from the end> To use that function try rightstr "abcdefg" 4 ;
