@@ -1,0 +1,1 @@
+'[', also known as 'test' is the POSIX variant of [[. [ does NOT support ==, =~, &&, ||, glob pattern matching; unquoted > and < will do file redirection instead of comparison, etc. See http://mywiki.wooledge.org/BashFAQ/031
