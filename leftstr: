@@ -1,0 +1,1 @@
+Bash does the "leftstr" operation using the PE capabilities. here is a Bash function that does a leftstr operation: leftstr() { echo ${1:0:$2}; } usage is: leftstr "somestring" count to use that function try leftstr "abcdefg" 4 ;
