@@ -1,0 +1,1 @@
+When you run a script, it can not affect the parent shell. If you want to affect the parent shell, you need to source the script from the parent shell. See ''help source''
