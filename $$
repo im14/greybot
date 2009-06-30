@@ -1,0 +1,1 @@
+$$ expands to the PID of the shell. In a () subshell, it expands to the process ID of the current shell, not the subshell.
