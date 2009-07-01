@@ -1,0 +1,1 @@
+Quoting 101: Always use "double quotes" around expansions: "$foo", "$(awk ..)". Use 'single quotes' to prevent even bash expansion: awk '$1 == foo'. You "can 'nest'" quotes but can't put literal single quotes in single quotes; so use: 'Don'\''t forget to quote!'.
