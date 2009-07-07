@@ -1,0 +1,1 @@
+Bint is "Bash lint", a conceptual tool which identifies certain types of scripting techniques that are considered bad or inefficient. It typically uses a list of rexes to identify problems, example grep "cat" < scriptfile will show all instances of cat in a file which are usually not needed in a script.
