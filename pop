@@ -1,1 +1,0 @@
-Never use eval! But here is a one liner pop function:bpop(){ x='${#'${1}'[@]}' ; eval index=$x ; index=$(( index -1 )); x='pop=${'${1}'['$index']}'; eval $x; echo $pop; x='unset '${1}'['$index']'; eval $x; }
