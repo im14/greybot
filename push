@@ -1,1 +1,0 @@
-Never use eval! But here is a one liner push function:bpush(){ x='${#'${1}'[@]}' ; eval index=$x ; x=${1}'['$index']=$2'; eval $x; }
