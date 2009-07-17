@@ -1,0 +1,1 @@
+The problem with inetd is that you have to edit a monolithic config file as root to add a new service. If you're an end user, why should you need the power to break lots of other services just to run your hello world daemon? Try tcpserver instead (http://cr.yp.to/ucspi-tcp.html).
