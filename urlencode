@@ -1,1 +1,0 @@
-# urlencode() { while read -n 1 c; do [[ $c = [a-zA-Z-_.~] ]] && printf %s "$c" || printf %%%x "'$c"; done <<< "$1"; }; urlencode "The Bars - Foo.mp3" # or see http://bash.projectnet.org/wiki/index.php/Urlencode
