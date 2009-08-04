@@ -1,0 +1,1 @@
+In bash, $ means "Expand"; it expands $parameters, $(commands) and $((arithmetics)). Remember you must *always* keep them "$quoted" or breakage is inevitable.
