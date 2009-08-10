@@ -1,1 +1,0 @@
-''set -f'' disables glob expansion. You may need this in constructs like ''for w in $words'' just in case one of the words contains a * or ?.
