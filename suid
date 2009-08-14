@@ -1,1 +1,0 @@
-The SUID bit doesn't work on interpretted scripts. Use sudo or http://pastebin.com/f1967215f: wget -O code.c 'http://pastebin.com/pastebin.php?dl=f1967215f' ; nano code.c ; gcc -o run code.c ; sudo chown root run ; sudo chmod 4755 run
