@@ -1,0 +1,1 @@
+# h=$(date +%H) ; echo Good $( (( h >= 4 && h < 12 )) && echo morning ; (( h >= 12 && h < 17 )) && echo afternoon ; (( h >= 17 && h < 22 )) && echo evening ; (( h >= 22 || h < 4 )) && echo night ; )
