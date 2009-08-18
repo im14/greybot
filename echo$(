@@ -1,0 +1,1 @@
+There is no point in capturing the output of a command if you just want to echo it, eg echo $(echo '3/2' | bc). Just run the command itself!
