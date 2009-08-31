@@ -1,0 +1,1 @@
+''command; if [ $? -eq 0 ]'' is silly; instead of checking whether the exit code of the ''['' command is 0 with 'if', you should check your command directly: ''if command''
