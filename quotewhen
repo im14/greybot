@@ -1,1 +1,0 @@
-When to quote: Use "double quotes" around every string that contains a "$parameter" expansion, white space, or characters like *, ?, ... Use 'single quotes' to disable parameter expansion, too. Don't quote PEs in assignments (foo=$bar), inside (( .. )) or inside [[ .. ]] (you DO need quotes in [ .. ]!)
