@@ -1,0 +1,1 @@
+Double quote *EVERY* argument that contains whitespace, expansions: $foo, $(foo), `foo` (and * or ? if you don't want *bash* to expand them). Single quote them to also disable expansions.
