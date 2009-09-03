@@ -1,0 +1,1 @@
+See if a value is in an array: isin() { local key=$1 value; shift; for value; do [[ $value = "$key" ]] && return; done; return 1; }; isin "$foo" "${arr[@]}"
