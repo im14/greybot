@@ -1,1 +1,0 @@
-to shift positional parameters to the left, simply use 'shift'. To shift to the right, use: set "${@:0:$#}"
