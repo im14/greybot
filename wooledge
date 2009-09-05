@@ -1,0 +1,1 @@
+The BashFAQ and Pitfalls pages are having DNS issues. If you need to get to those pages, put '209.142.155.49 mywiki.wooledge.org' in your /etc/hosts file.
