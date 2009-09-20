@@ -1,0 +1,1 @@
+The external command getopt(1) is never safe to use, unless you *know* it is GNU getopt, you call it in a GNU-specific way, *and* you ensure that GETOPT_COMPATIBLE is not in the environment. Use getopts (shell builtin) instead, or simply loop over the positional parameters.
