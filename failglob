@@ -1,0 +1,1 @@
+If set, patterns which fail to match filenames during pathname expansion result in an expansion error.
