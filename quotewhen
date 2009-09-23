@@ -1,1 +1,0 @@
-"Double quote" *EVERY* argument that contains whitespace or expansions ("$foo", "$(foo)", "`foo`" and * or ? if you don't want them to expand). Use 'Single quotes' to also disable those expansions.
