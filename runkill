@@ -1,0 +1,1 @@
+To run a command and then kill it (after some delay), run the cmd in the background, wait some time and kill it: cmd & sleep 60; kill $!
