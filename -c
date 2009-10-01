@@ -1,0 +1,1 @@
+bash -c 'bash commands to execute' "$0" "$1" "$2" ... Since "$0" is typically unused, it is often set it to something arbitrary like _
