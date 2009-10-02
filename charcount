@@ -1,0 +1,1 @@
+Count how many times a character occurs in a string: strip everything else and count the length # v="abcaba"; v="${v//[!a]}"; echo "${#v}"
