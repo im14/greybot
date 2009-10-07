@@ -1,0 +1,1 @@
+In bash, $ means "Expand". It is NOT part of your variable name! You can expand "$variable" content, "$(command)" output or "$((arithmetic))" results.
