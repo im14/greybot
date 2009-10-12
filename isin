@@ -1,0 +1,1 @@
+See if a value is in an array: isin() { local needle=$1 element; shift; for element; do [[ $element = "$needle" ]] && return; done; return 1; }
