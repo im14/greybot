@@ -1,1 +1,0 @@
-Tools generally considder arguments that begin with a - as an option. To pass filenames that begin with a -, prefix it with its path: rm ./-foo
