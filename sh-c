@@ -1,0 +1,1 @@
+Never expand parameters in ''sh -c'' commands. Use either of these instead: sh -c 'command "$1"' -- "$file" OR file=$file sh -c 'command "$file"' OR sh -c "$(printf 'command %q' "$file")". Same problem with 'ssh', though with 'ssh' only the last alternative works.
