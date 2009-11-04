@@ -1,1 +1,0 @@
-$@ vs $*: Unquoted, they are identical: $1 $2 .. (Don't use this!); Quoted, "$*" merges arguments into one: "$1_$2.." where _ is the first char from IFS, "$@" becomes: "$1" "$2" .. You almost always want "$@". Same for arrays: "${arr[@]}"
