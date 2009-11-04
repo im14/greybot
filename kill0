@@ -1,0 +1,1 @@
+kill -0 does not kill a process, it merely tests if it's alive.
