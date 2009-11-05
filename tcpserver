@@ -1,0 +1,1 @@
+Part of ucspi-tcp <http://cr.yp.to/ucspi-tcp.html>, useful for providing easy, robust network services WITHOUT having to be superuser or edit a monolithic inetd.conf file.
