@@ -1,1 +1,0 @@
-hash is a builtin for managing bash's hashtables, with which bash determines what commands call what programs. See 'help hash' at you nearest bash shell for more info. No, bash does not support associative arrays, but awk does.
