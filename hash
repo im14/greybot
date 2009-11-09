@@ -1,0 +1,1 @@
+hash is a builtin for managing bash's hashtables, with which bash determines what commands call what programs. See 'help hash' at your nearest bash prompt for more info. If you mean perl's hashes, bash 4.0 and later support associative arrays. No earlier bash version supports them.
