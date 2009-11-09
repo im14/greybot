@@ -1,0 +1,1 @@
+don't set LC_ALL globally. Set LANG, set LC_(everything_else), but save LC_ALL for when you need to run one-time tests. Never set it globally or permanently. Use LANG to set default locale settings.
