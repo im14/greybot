@@ -1,0 +1,1 @@
+Bash doesn't have a perl-style "map" command (you'll have to make a loop). If you meant C++ style "maps", bash 4.0 and later have associative arrays, but no earlier version supports them.
