@@ -1,1 +1,0 @@
-xargs(1) bugs out on filenames containing whitespace and quotes: ''touch "I don't want to miss a thing.mp3"; find . | xargs rm'' yields: ''xargs: unterminated quote''.
