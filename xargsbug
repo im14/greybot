@@ -1,1 +1,0 @@
-# touch "I don't want to miss a thing.mp3"; find . | xargs -n1 rm # xargs(1) breaks on whitespace (causing it to try to rm "I" instead of the whole song) and quotes (the ' in don't).
