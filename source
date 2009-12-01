@@ -1,0 +1,1 @@
+''source <script>'' or ''. <script>'' reads and executes the commands from <script> into the current shell, only one script per invocation the rest is passed as arguments to it
