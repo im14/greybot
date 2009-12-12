@@ -1,0 +1,1 @@
+Do NOT use kill -9! Read http://stackoverflow.com/questions/690415/in-what-order-should-i-send-signals-to-gracefully-shutdown-processes/690631#690631
