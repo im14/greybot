@@ -1,0 +1,1 @@
+warn() { printf '%s\n' "$@" >&2; } -- also see !faq 101
