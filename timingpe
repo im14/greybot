@@ -1,0 +1,1 @@
+val=$'foo\n'; time for ((i=0;i<1000;++i)) ; do echo "${val#$'\n'}" > /dev/null ; done
