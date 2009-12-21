@@ -1,0 +1,1 @@
+val=$'foo\n'; { time for ((i=0;i<2000;++i)) ; do echo "${val%$'\n'}" ; done >/dev/null; } 2> >(tr '\n\t' ' ')
