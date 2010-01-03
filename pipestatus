@@ -1,0 +1,1 @@
+bash: use the PIPESTATUS array, posix sh: see http://sdf.org/l/55 and http://pipestatus.sf.net
