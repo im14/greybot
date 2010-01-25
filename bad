@@ -1,0 +1,1 @@
+'tac < file | tail | tac # TAOMBWTDI "there's always one more bad way to do it." '
