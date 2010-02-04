@@ -1,1 +1,0 @@
-If you have to ask, you probably want to use a function instead. Aliases are not expanded when the shell is not interactive, unless the expand_aliases shell option is set using shopt.
