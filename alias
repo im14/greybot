@@ -1,1 +1,0 @@
-Aliasses are useful for simple command renames and only on your prompt. You probably want a function instead: myfunc() { foo "$@" | bar; }
