@@ -1,0 +1,1 @@
+- to print the Nth thru K lines of a file; just the 5th: sed -n 5p file; 5 thru 9th: sed -n 5,9p file ; see http://mywiki.wooledge.org/BashFAQ/011 for more
