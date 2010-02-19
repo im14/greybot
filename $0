@@ -1,0 +1,1 @@
+the first positional parameter, equivalent to argv[0] in C, see http://www.bash-hackers.org/wiki/doku.php/scripting/posparams#the_first_argument
