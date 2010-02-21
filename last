@@ -1,0 +1,1 @@
+The last argument of the previous command is available in the "$_" variable. Try these: days_this_month() { : $(cal); echo $_; }; last_file_alphabetically() { : ./*; echo "$_"; }
