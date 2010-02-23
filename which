@@ -1,1 +1,0 @@
-which(1) is an external program that searches $PATH. Use "type -P" instead; it can see builtins, functions and aliases. See http://mywiki.wooledge.org/BashFAQ/081
