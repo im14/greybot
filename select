@@ -1,0 +1,1 @@
+''help select''; e.g.: cdmenu() { local dir PS3='ctr-D to quit. cd to ...? '; select dir in ./ ../ */; do [[ $dir ]] || { echo "unknown response $REPLY"; continue; }; cd "$dir" && echo "Now in $dir" && break; done; }
