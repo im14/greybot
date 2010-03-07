@@ -1,1 +1,0 @@
-cmd1 && cmd2 ## cmd1 is executed, and then if its exit status was 0 (true), cmd2 is executed. See http://mywiki.wooledge.org/BashGuide/TheBasics/TestsAndConditionals
