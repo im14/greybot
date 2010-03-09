@@ -1,0 +1,1 @@
+NEVER, EVER write "ps -aux". EVER. If you see some script that uses that syntax, throw the entire script away. BSD ps(1) syntax does *not* use a hyphen. In hybrid systems (Linux, AIX, etc.) they hyphen indicates the use of System V ps(1) syntax rather than BSD. It should be "ps aux" or "ps auxw".
