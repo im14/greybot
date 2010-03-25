@@ -1,0 +1,1 @@
+Use %42 to refer to a job by number, %vi by name, %?macs by part of the name, %% for the current job, and %- for the previous. http://mywiki.wooledge.org/BashGuide/JobControl#jobspec
