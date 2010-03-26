@@ -1,0 +1,1 @@
+A child process can not modify its parent's environment. See !faq change
