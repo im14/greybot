@@ -1,0 +1,1 @@
+: is a builtin identical to the true builtin; they do nothing and have an exit status of 0
