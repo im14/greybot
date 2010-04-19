@@ -1,0 +1,1 @@
+case word in pattern);; esac syntax is used to match a word against a particular pattern, and execute commands if that pattern matches. See 'case word in' in man bash | http://wiki.bash-hackers.org/syntax/ccmd/case
