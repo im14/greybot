@@ -1,0 +1,1 @@
+First, quote all your expansions ("$foo", "$(foo)", "`foo`"). When things break; the fix is not to remove the quotes but to parse your data properly! (eg. use ''while read'' instead of ''for'')
