@@ -1,0 +1,1 @@
+If you put the control operator & at the end of a command, e.g. ''command args &'', the shell executes the command in the background in a subshell. The shell does not wait for the command to finish, and the return status is 0. Pid of the last backgrounded command is available via the special variable $!
