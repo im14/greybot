@@ -1,0 +1,1 @@
+ulimit is bash's interface to the setrlimit()/getrlimit() system calls. Resource limits are inherited by child processes, just like environment vars.
