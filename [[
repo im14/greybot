@@ -1,1 +1,0 @@
-[[ is a bash keyword similar to (but more powerful than) the [ command. See http://mywiki.wooledge.org/BashFAQ/031 and http://mywiki.wooledge.org/BashGuide/Practices/BashTests Unless you are scripting for POSIX sh we recommend [[.
