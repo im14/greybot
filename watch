@@ -1,1 +1,0 @@
-watch is a nonstandard util. Here's a function with similar utility: watch() { local -i t="$1"; shift; while true; do "$@"; sleep "$t"; clear; done; }
