@@ -1,0 +1,1 @@
+Ask a user to confirm an action: read -p "Are you sure? [y/N]" var; if [[ $var = [yY] ]] ... see: help read
