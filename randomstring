@@ -1,0 +1,1 @@
+randomstring() { LC_CTYPE=C tr -dc '[:print:]' < /dev/urandom | dd bs="${1:-16}" count=1 2>/dev/null; echo; } # usage: var=$(randomstring [LENGTH])
