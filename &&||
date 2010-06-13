@@ -1,0 +1,1 @@
+foo && bar || baz is not equivalent to 'if foo; then bar; else baz; fi'. In the former case, baz will happen if *either* foo *or* bar return false. In the latter case, baz will only trigger if foo returns false, regardless of the exit code for bar. See http://mywiki.wooledge.org/BashPitfalls
