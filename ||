@@ -1,0 +1,1 @@
+foo || bar runs bar when foo fails: [[ -d $foo ]] || { echo 'ohNoes!' >&2; exit 1; }
