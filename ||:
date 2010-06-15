@@ -1,0 +1,1 @@
+the same thing as "|| true". your script probably also has set -e and || : is a trick to prevent the script from exiting in case the command before the || fails
