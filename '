@@ -1,1 +1,0 @@
-as Single quotes (') cause everything between them to be taken literally by bash. If you want to embed a ' inside a '...', write it as the four characters, '\'': echo 'It'\''s a blast!'
