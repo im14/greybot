@@ -1,1 +1,0 @@
-Process substitution: command1 <(command2) -- command2 will be executed; a socket, fifo or temporary file will be created that contains its output. The <(command2) will be expanded into this file's filename so that command1 is executed with that filename as a parameter.
