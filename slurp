@@ -1,0 +1,1 @@
+To read a file's contents into a variable: var=$(< file) However, this strips trailing newlines. To work around that: var=$(cat file; printf x) var=${var%x}
