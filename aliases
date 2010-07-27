@@ -1,0 +1,1 @@
+Aliases suck. They don't work in scripts. They can't take arguments. They have special evil magical powers that break all expectations. See http://mywiki.wooledge.org/BashFAQ/080 for starters.
