@@ -1,0 +1,1 @@
+$0 is like argv[0] in C. It's whatever the caller decides to put there. You can't rely on it. See http://mywiki.wooledge.org/BashFAQ/028 and http://www.bash-hackers.org/wiki/doku.php/scripting/posparams#the_first_argument
