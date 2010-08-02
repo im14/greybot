@@ -1,0 +1,1 @@
+The unicode byte-order-mark determines the endianness of UTF-N files where N>8. http://unicode.org/faq/utf_bom.html#BOM
