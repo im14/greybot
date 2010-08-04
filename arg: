@@ -1,0 +1,1 @@
+"(arg: N)" (N is any number) is what you get in emacs mode when you press ESC and then type a number. The NEXT thing you press after the number will be repeated N times. Silly emacs.
