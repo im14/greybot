@@ -1,0 +1,1 @@
+The NUL byte is ASCII character 0x00 (binary 00000000). printf can produce them with \0 in the format spec. GNU/BSD find can terminate filenames with them (-print0). Bash's read can stop (delimit) on them with -d ''.
