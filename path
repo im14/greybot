@@ -1,0 +1,1 @@
+The PATH variable defines where your commands are. Don't do stupid things like GREP=/usr/bin/grep; $GREP foo bar. Just use grep foo bar in the first place. If you aren't sure what your PATH contains, set it yourself.
