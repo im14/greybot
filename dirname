@@ -1,0 +1,1 @@
+dirname(1) removes the filename part of a pathname (/a/b/c -> /a/b). Or you can use a parameter expansion: "${path%/*}"
