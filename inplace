@@ -1,0 +1,1 @@
+You can not do: cmd < file > file. Use a tmp file (see man mktemp). To inplace edit, you can use ed. GNU sed -i can hide the magic, too
