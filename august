@@ -1,0 +1,1 @@
+August is the month when all your scripts break because you placed $(date +%m) in a variable and tried to do arithmetic with it, without removing the leading zeros. 08 is considered octal. Use $((10#$month)) to force decimal, or strip the zero.
