@@ -1,0 +1,1 @@
+$((...)) is an arithmetic substitution. After doing the arithmetic, the whole thing is replaced by the value of the expression. See <http://mywiki.wooledge.org/ArithmeticExpression>.
