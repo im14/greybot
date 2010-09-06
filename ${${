@@ -1,0 +1,1 @@
+${x}, ${x%y}, ${x:y:z}, ... are parameter expansions. x needs to be a parameter. you can't 'nest' them like ${${x#y}%z} because ${x#y} is an expansion (a string), not a parameter.
