@@ -1,0 +1,1 @@
+Secure SHell (See #openssh, http://mywiki.wooledge.org/CategorySsh) - To run bash code remotely; adapt: ssh user@host bash <<< "$(printf 'echo %q' "$localVar")"
