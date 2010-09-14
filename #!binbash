@@ -1,0 +1,1 @@
+Use "!#/usr/bin/env bash" - it is more portable and will probably do what the user wants in a modified envrioment
