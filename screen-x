@@ -1,0 +1,1 @@
+screen(1) lets you attach to a pseudoterminal multiple times. Run "screen", then in another window, run "screen -x". Do stuff. Great for remote teaching, etc.
