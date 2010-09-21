@@ -1,0 +1,1 @@
+The == operator is used to test numbers for equality in ((arithmetic expressions)). In BASH and ksh it is the same as = in [[ ]]. It should not be used in the POSIX / Bourne compatible test or [ ], as this will not work in other shells.
