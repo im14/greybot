@@ -1,0 +1,1 @@
+Positional parameters by example: echo "First parameter is $1, second is $2. You supplied $# of them. They will now all be copied to /tmp."; cp "$@" /tmp;
