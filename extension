@@ -1,0 +1,1 @@
+Use parameter expansion: ext=${filename##*.} noext=${filename%.*}
