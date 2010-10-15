@@ -1,0 +1,1 @@
+Curly-braces in parameter expansions are used when the parameter name is ambiguous: "${foo}bar", "${foo[1]}". They are not necessary for normal PEs (eg. "$foo"). They are no replacement for quoting. echo ${line} is BROKEN. (use echo "$line" or "${line}")
