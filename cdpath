@@ -1,0 +1,1 @@
+CDPATH lets you specify a location where bash will search for directories when 'cd'ing. Can be handy to build shortcuts or "portals" to deep places in your filesystem. See http://stackoverflow.com/questions/670488/#676753
