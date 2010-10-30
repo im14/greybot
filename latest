@@ -1,1 +1,0 @@
-Find the latest modified file in a directory: latest() ( shopt -s nullglob; local file files=("${1:-.}/"*) latest=$files; for file in "${files[@]}"; do [[ $file -nt $latest ]] && latest=$file; done; printf %s "$latest" )
