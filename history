@@ -1,0 +1,1 @@
+To keep all your shell history when running multiple shells: add two lines to your .bashrc; shopt -s histappend and PROMPT_COMMAND="history -a;$PROMPT_COMMAND" You may also want to increase the value of HISTSIZE.
