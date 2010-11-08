@@ -1,0 +1,1 @@
+"set -e" tells bash to abort the execution of the script when an "unchecked" command fails (has a non-zero exit code).
