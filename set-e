@@ -1,1 +1,0 @@
-"set -e" attempts to tell bash to abort the script if any command returns non-zero. But it fails. Badly. Subtly. Insidiously. Don't use it. Please. Just don't.
