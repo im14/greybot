@@ -1,0 +1,1 @@
+svngrep() { find . -name .svn -prune -o -exec grep "$@" /dev/null {} +; }
