@@ -1,0 +1,1 @@
+Character classes like [a-z] or [A-Z0-9] may behave strangely in non-POSIX locales. If you want your script to work locale-wise, use [[:lower:]] or [[:upper:][:digit:]] instead. Remember to always quote your character classes, as they may be expanded by the shell as file globs. See also !locale
