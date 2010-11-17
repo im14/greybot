@@ -1,1 +1,0 @@
-Bash 4.0 started echoing ^C when you press SIGINT in editing mode, which is very annoying. To revert to previous behavior: echo 'set echo-control-characters off' >> ~/.inputrc
