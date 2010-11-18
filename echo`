@@ -1,0 +1,1 @@
+echo `mycommand foo`: Run command, capture its output, feed it to the 'echo' command and tell it to output it again. A pointless operation (and broken by the lack of quotes). Instead, use just: mycommand foo
