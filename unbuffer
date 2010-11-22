@@ -1,0 +1,1 @@
+unbuffer from Expect lets you generically disable output buffering in pipes
