@@ -1,0 +1,1 @@
+Portability is important. Your script should, if at all possible, run on as many different platforms as possible. Avoid Linux-specific commands like seq(1), GNU-specific command flags like "find ... -or", and so on. See http://www.gnu.org/software/hello/manual/autoconf/Limitations-of-Usual-Tools.html
