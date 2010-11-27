@@ -1,0 +1,1 @@
+Run ... for every file find(1) matches: while IFS= read -r -d '' file; do ...; done < <(find /path -print0) ## See http://mywiki.wooledge.org/UsingFind
