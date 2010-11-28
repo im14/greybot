@@ -1,0 +1,1 @@
+To recursively set different permissions for directories and files, use something like: find -type d -exec chmod 770 {} + -o -type f -exec chmod 660 {} +
