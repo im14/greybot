@@ -1,0 +1,1 @@
+Bash supports $"..." quoting syntax for locale-specific translation. If the current locale is C or POSIX, the dollar sign is ignored. If the string is translated and replaced, the replacement is double-quoted. See http://mywiki.wooledge.org/BashFAQ/098
