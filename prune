@@ -1,1 +1,0 @@
-see http://wooledge.org/mywiki/UsingFind or example: find . -name .svn -prune -o \( ... what you really wanted ... \) -print
