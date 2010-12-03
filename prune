@@ -1,0 +1,1 @@
+Stop find from descending a tree: find . ! '(' -name do-not-descend -prune ')' -print ## See http://mywiki.wooledge.org/UsingFind
