@@ -1,1 +1,0 @@
-exec [command] [redirections] replaces the script's process by a new one that runs the command. When no command is given, only the redirections are applied to the current shell.
