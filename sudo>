@@ -1,0 +1,1 @@
+sudo echo foo >> /etc/bar -- The file redirection (> /etc/bar) is bash syntax, so bash performs the opening of the file. To make a sudo'ed process open the file, use: sudo tee -a /etc/bar <<< foo
