@@ -1,0 +1,1 @@
+Some people use the word "slice" to mean "a contiguous set of array elements", as in "I want array elements 5 through 7". "${array[@]:5:3}" or "${@:5:3}"
