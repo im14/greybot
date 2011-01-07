@@ -1,0 +1,1 @@
+printf %s\\n {2..4}"# echo $BASH_VERSION"
