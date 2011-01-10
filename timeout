@@ -1,0 +1,1 @@
+"run a command and time it out after X seconds" is almost always an indicator of underlying problems. Instead, either fix your command so it exits properly or tell it to time out via one of its options.
