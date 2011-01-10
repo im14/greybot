@@ -1,0 +1,1 @@
+$[...] is an obsolete, deprecated syntax for math. Don't use it. Use $((...)) instead.
