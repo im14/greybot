@@ -1,0 +1,1 @@
+Don't do this: for x in $(command) or `command` or $var. for is used for iterating arguments, not (output) strings. Instead, use an array variable ("${array[@]}") or a while loop: while read line; do ..; done < <(command)
