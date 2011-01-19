@@ -1,0 +1,1 @@
+filename=foobar.ext; extension=${filename#*.}; filename_without_extension=${filename%.*}
