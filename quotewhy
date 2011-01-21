@@ -1,0 +1,1 @@
+Unquoted $expansions (except for in keywords or assignments) are always bugs (subjected to word splitting and pathname expansion) and are also twice as slow to expand. If you think you *need* an unquoted expansion: You're wrong. Write better logic or learn about arrays or functions.
