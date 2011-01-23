@@ -1,1 +1,0 @@
-There is no such thing as &>>. What you want is: command >>file 2>&1
