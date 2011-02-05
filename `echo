@@ -1,1 +1,0 @@
-Doing something like `echo foo` is a no-op: echo outputs 'foo' and `` is replaced by echo's output. So the result of it is just 'foo'. Drop the whole `echo ...` part and write JUST foo instead.
