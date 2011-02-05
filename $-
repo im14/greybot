@@ -1,0 +1,1 @@
+$- expands to the current option flags as specified upon invocation, by the set builtin command, or those set by the shell itself (such as the -i option).
