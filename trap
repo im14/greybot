@@ -1,0 +1,1 @@
+To catch and handle signals sent to bash processes, trap them: trap [command] [signal]. To do cleanup on exit, do NOT trap a bunch of signals, instead: trap cleanupFunc EXIT
