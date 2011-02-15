@@ -1,0 +1,1 @@
+kill is a bash built-in that can send signals to a process or job. kill -[signal] [pid]... You can also use it to see if a process is alive: if kill -0 "$mypid"
