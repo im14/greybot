@@ -1,1 +1,0 @@
-"Double quote" *EVERY* argument that contains whitespace or expansions ("$foo", "$(foo)", "`foo`"). 'Single Quotes' prevent expansions from happening at all. Also quote *, [, ], ? etc. if you don't want bash to expand them into filenames.
