@@ -1,0 +1,1 @@
+"Double quote" *EVERY* argument that contains spaces or expansions ("foo bar", "$foo", "$(foo)", "`foo`"). 'Single Quotes' prevents all expansions and other special characters, notably * ? [ ]
