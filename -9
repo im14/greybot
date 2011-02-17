@@ -1,0 +1,1 @@
+Do NOT use kill -9 (SIGKILL)! Go read http://stackoverflow.com/questions/690415#690631
