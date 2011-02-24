@@ -1,0 +1,1 @@
+You do not need $() to "run stuff". $(command); $(command); $(command) is just plain WRONG. Bash runs every line as a command. $() is ONLY used to capture the OUTPUT of the command and INLINE it (expand it in-place). Use command; command; command instead.
