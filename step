@@ -1,0 +1,1 @@
+To step through your code, look into bashdb or put this where you want to begin stepping: trap '(read -p "[$BASH_SOURCE:$LINENO] $BASH_COMMAND?")' DEBUG
