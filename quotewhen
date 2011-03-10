@@ -1,0 +1,1 @@
+"Double quote" everything that has a $ in it, if you want the $ to be expanded. 'Single quote' everything that you DON'T want expanded.
