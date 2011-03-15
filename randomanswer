@@ -1,0 +1,1 @@
+# Answer=(yes no maybe) ; echo ${Answer[$(( $RANDOM % 3 ))]}
