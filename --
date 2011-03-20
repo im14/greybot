@@ -1,1 +1,0 @@
-The special option -- means "end of options" to every POSIX command except echo and test. E.g., mv -- *.png /somedir
