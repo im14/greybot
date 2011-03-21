@@ -1,0 +1,1 @@
+The escape key generates the ASCII byte 033 octal (27 decimal). This may be represented as $'\033' or $'\e' in bash scripts.
