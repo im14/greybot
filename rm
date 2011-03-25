@@ -1,0 +1,1 @@
+Don't override the rm command. You'll teach yourself bad habits and lose data some day when you use a different machine or login account. If you must back up files when deleting them, make a new command: del() { mv "$@" ~/.backup/; } or similar.
