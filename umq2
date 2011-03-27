@@ -1,0 +1,1 @@
+Use more quotes, not just when assigning variables. Examples: WRONG: Var="/b*" && echo $Var is a 3-character string ; RIGHT: Var="/*b" && echo "$Var is a 3-character string"
