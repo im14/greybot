@@ -1,0 +1,1 @@
+Authentication is ENTIRELY a function of the application or system to which you are authenticating. THERE IS NO GENERAL WORKAROUND. If you are authenticating to MySQL, ask #mysql. If you want to automate ssh, see http://mywiki.wooledge.org/BashFAQ/069 . If you want to set users' passwords, see http://mywiki.wooledge.org/BashFAQ/078 .
