@@ -1,0 +1,1 @@
+Please don't use command substitution to capture the output of echo (or printf). Just use whatever you want to pass to echo. Bad: var=$(echo "Hello") Good: var="Hello" Also: printf -v var "%s" "Hello"
