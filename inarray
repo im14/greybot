@@ -1,1 +1,0 @@
-Check whether a value is in an array: inarray() { local q=$1 e; shift; for e; do [[ $q = "$e" ]] && return; done; } # Usage: inarray "$value" "${array[@]}"
