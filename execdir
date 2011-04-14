@@ -1,0 +1,1 @@
+find's -execdir first goes into the directory that CONTAINS the match and makes {} the matched file/directory. Eg. if it matches a directory, it does NOT go into that directory, but into the one that contains it.
