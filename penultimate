@@ -1,0 +1,1 @@
+The penultimate (second-to-last) argument of your script is "${@:(-2):1}". The ultimate (final) argument is "${@:(-1)}". For named arrays, the same thing: "${array[@]:(-2):1}" etc.
