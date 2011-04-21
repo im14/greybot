@@ -1,1 +1,0 @@
-The penultimate (second-to-last) argument of your script is "${@:(-2):1}". The ultimate (final) argument is "${@:(-1)}".
