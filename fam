@@ -1,0 +1,1 @@
+FAM (File Alteration Monitor), or maybe you wanted inotifywait instead. Also incron for a cron-like tool to trigger commands on filesystem changes.
