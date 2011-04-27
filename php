@@ -1,1 +1,0 @@
-PHP is to programming languages as the Salem Witch trials were to Fairness, Decency and Logic. In fact any programmer who likes PHP should be sent back to participate in those trials as a victim to understand the consequences of faulty thinking
