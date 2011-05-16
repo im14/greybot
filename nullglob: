@@ -1,1 +1,0 @@
-a shell option (shopt) which causes unmatched globs to expand to nothing, rather than themselves. Example: shopt -s nullglob; files=(*); echo "There are ${#files[@]} files."
