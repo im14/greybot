@@ -1,0 +1,1 @@
+When your pipeline gets too long, make sure you can't combine commands into one (grep | awk | awk -> awk, or just use 'read') and try to assign intermediate variables for readability.
