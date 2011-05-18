@@ -1,0 +1,1 @@
+If your script needs configuration, the way to do that in bash is to create a config file that adheres to bash syntax and source that file from the beginning of your script: source ~/.myscript.conf
