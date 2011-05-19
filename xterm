@@ -1,1 +1,0 @@
-xterm is an X client program which implements a terminal emulator. It mostly mimics the VT102, with some extensions. Some vendors even added color, so "xterm" as a terminfo label is extremely ambiguous. To set the xterm title bar: settitle() { echo -en "\e]2;$1\a"; }
