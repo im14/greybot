@@ -1,0 +1,1 @@
+Quotes on expansions are almost always safest, even if sometimes unnecessary. The ONLY times you do NOT want quotes: ${var:+ .. } (quote expansions inside '..', though!), right-hand side of [['s = and =~ (if you want a pattern match), inside arithmetic context (( "$foo" )) -> (( foo )).
