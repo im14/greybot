@@ -1,0 +1,1 @@
+Recursive latest, requires GNU find + sort: rlatest() { local file; find "${1:-.}" -type f -printf '%T@ %p\0' | sort -znr | { read -rd ' ' _; IFS= read -rd '' file; printf '%s\n' "$file"; }; }
