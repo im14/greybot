@@ -1,1 +1,0 @@
-echo outputs a string, but under certain circumstances, it could break. It's also not completely portable, output may differ between implementations, see http://cfajohnson.com/shell/cus-faq.html#Q0b . printf '%s\n' is safer. Also consider using a here string: see !<<<
