@@ -1,1 +1,0 @@
-echo outputs a string, but if that string starts with a - it could break. printf '%s\n' is a little safer. Also consider using a herestring: see !<<<
