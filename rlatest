@@ -1,0 +1,1 @@
+Recursive latest, requires GNU find + sort: rlatest() { local time file; find "${1:-.}" -type f -printf '%T@ %p\0' | sort -znr | { read -rd '' time file; printf '%s\n' "$file"; }; }
