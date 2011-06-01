@@ -1,0 +1,1 @@
+"Double quote" _every_ expansion, and anything that could possibly contain a special character, e.g. "$var", "$@", "${array[@]}", "$(command)". Bash treats everything within 'single quotes' as literal. See <http://mywiki.wooledge.org/Arguments>, <http://mywiki.wooledge.org/Quotes> and <http://mywiki.wooledge.org/BashPitfalls>
