@@ -1,0 +1,1 @@
+$# expands to the number of arguments, not counting $0.
