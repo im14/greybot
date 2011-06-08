@@ -1,0 +1,1 @@
+The value of $PS3 is printed (without expansion) as the prompt for the select command. See man bash, under PROMPTING.
