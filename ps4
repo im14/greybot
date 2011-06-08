@@ -1,0 +1,1 @@
+The value of $PS4 is printed (after expansion) before each command bash displays during an execution trace. See man bash, under PROMPTING. # http://bash-hackers.org/wiki/doku.php/scripting/debuggingtips#making_xtrace_more_useful
