@@ -1,0 +1,1 @@
+The value of $PS2 is printed (after expansion) as the secondary prompt for more data when bash is running interactive. See man bash, under PROMPTING.
