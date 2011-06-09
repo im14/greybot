@@ -1,0 +1,1 @@
+which(1) is an external program used to search PATH for an executable. It behaves differently on different systems and you can't rely on a useful exit code; use (from most to least portable) ''command -v'' or ''type -P'' (to find the path) or ''hash'' (to check) instead. See http://mywiki.wooledge.org/BashFAQ/081
