@@ -1,0 +1,1 @@
+Something is bugged if it has unexpected side effects (which can probably be abused). Just because code compiles/can be parsed and passes your tests does not make it bug-free.
