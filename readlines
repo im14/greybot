@@ -1,1 +1,0 @@
-Read lines from a file into an array in bash<4: IFS=$'\n' read -d '' -r -a lines < file
