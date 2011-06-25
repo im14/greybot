@@ -1,0 +1,1 @@
+event not found -- These errors only happen in *interactive* shells when you run commands with ! in them with history expansion enabled. Run set +o histexpand (set +H) to disable it, and put it in your ~/.bashrc to disable it in future shell sessions, too. Regardless, it won't affect scripts.
