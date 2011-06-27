@@ -1,0 +1,1 @@
+On Mac OS X, a file with "extended attributes" shows an '@' character after the permissions in 'ls -l' format. See ls(1). A '+' generally means the file has an ACL (on many OSes).
