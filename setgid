@@ -1,0 +1,1 @@
+The setgid bit (octal permission bit 02000) on a directory causes new files to inherit the directory's group ownership. See http://mywiki.wooledge.org/Permissions#setgid
