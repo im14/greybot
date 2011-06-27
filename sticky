@@ -1,0 +1,1 @@
+The "sticky" bit (octal permission bit 01000) on a directory prevents removing other people's files. See http://mywiki.wooledge.org/Permissions#sticky
