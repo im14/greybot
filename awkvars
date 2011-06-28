@@ -1,1 +1,0 @@
-Set an awk variable: awk ... -v FOO="$BAR" ... '$0 ~ FOO'
