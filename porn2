@@ -1,0 +1,1 @@
+i=1; for f in ./*.jpg; do printf -v num %05d $((i++)); mv "$f" $num.jpg; done
