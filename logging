@@ -1,1 +1,0 @@
-To log all of the script's subsequent stdout and stderr in a file: exec >mylogfile 2>&1
