@@ -1,0 +1,1 @@
+REPLY is the default variable that read populates, when not supplied with one. The trimming of leading and trailing IFS whitespace does not occur, when used as such. See ''help read'' and http://wiki.bash-hackers.org/commands/builtin/read
