@@ -1,0 +1,1 @@
+To log all subsequent output (+ stderr): exec >>somefile 2>&1 ## To log all your actions, plus stdout+stderr, add set -x after that. ## To log *and also pass through* see http://mywiki.wooledge.org/BashFAQ/106
