@@ -1,1 +1,0 @@
-Logging all actions and errors of a script (except redirections, unfortunately): exec 2>>/my/logfile; set -x
