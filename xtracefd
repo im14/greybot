@@ -1,0 +1,1 @@
+In bash 4.x, the shell variable BASH_XTRACEFD allows you to specify a different file descriptor for xtrace (set -x) output. This can be useful when you want to redirect it elsewhere, without affecting the rest of stderr.
