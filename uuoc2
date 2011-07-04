@@ -1,0 +1,1 @@
+# cat < <(printf "%s\n" "$(echo "Useless Use Of Cat: Someone's doing it wrong.")") | cat | cat
