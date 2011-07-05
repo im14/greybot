@@ -1,0 +1,1 @@
+You probably want pgrep and pkill, not pidof. Also see http://mywiki.wooledge.org/ProcessManagement
