@@ -1,0 +1,1 @@
+A Posix-compliant *shell* recognizes the set of all Posix features (and possibly a superset, such as in the case of bash). A Posix-compliant *script* is limited to a *subset* of Posix features. A Posix-compliant shell such as bash can handle non-Posix-compliant scripts (such as one that uses bash-only features).
