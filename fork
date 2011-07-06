@@ -1,0 +1,1 @@
+When bash creates a subshell or executes an external command, it needs to fork. Avoid forking unless you have a good reason to: solutions that fork are often slower, even more so on machines where forking is expensive (eg. ''[[ $n = *[^0-9]* ]]'' is 300 times faster than ''echo "$n" | grep -q -v "[^0-9]"'').
