@@ -1,0 +1,1 @@
+find . -type f -printf '%T+ %p\0' | sort -z | tr \\0 \\n
