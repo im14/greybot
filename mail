@@ -1,0 +1,1 @@
+To send email from a bash script, use one of: mailx (POSIX), mail, sendmail, or a MUA such as mutt, pine, ... see http://www.shelldorado.com/articles/mailattachments.html
