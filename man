@@ -1,0 +1,1 @@
+bash builtins and keywords do not have separate man-pages, read bash's manual instead or use the help builtin. Rule of thumb: If type foo says foo is a builtin or keyword, run help foo or man bash, otherwise try man and/or info.
