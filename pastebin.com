@@ -1,0 +1,1 @@
+is ad-supported -- please use a different one, or just ask a succinct and clear question in-channel. Suggestions include: http://pastie.org/ - http://pastebin.ca/ - http://sprunge.us/ - http://pastebin.bash-hackers.org/ - https://gist.github.com/
