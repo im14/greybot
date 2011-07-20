@@ -1,0 +1,1 @@
+for dir in */; do (cd "$dir" || exit; for f in *.rar; do unrar "$f" || break; done && rm *.rar *.r[0-9][0-9]); done
