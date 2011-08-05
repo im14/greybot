@@ -1,0 +1,1 @@
+http://www.regular-expressions.info/email.html and http://xkcd.com/208/ and one that works for a lot but not all: '\b[[:alnum:]._%+-]+@[[:alnum:].-]+\.[[:alpha:]]{2,4}\b'
