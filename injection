@@ -1,0 +1,1 @@
+Only combine two strings when they are of the same context. Eg. do NOT inject data into mysql/sed/awk/perl/.. code. If you do, breakage WILL follow, and anybody that controls the data can execute arbitrary code.
