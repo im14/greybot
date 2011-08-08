@@ -1,0 +1,1 @@
+noclobber() { local start=$1 end=$2 i=0; while [[ -e $end ]]; do end=$2.$((++i)); done; mv "$start" "$end"; } # usage: noclobber "$from" "$target"
