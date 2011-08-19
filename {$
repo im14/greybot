@@ -1,0 +1,1 @@
+{$x..$y} Parameter expansion happens after brace expansion. As a result, your parameters are only expanded after bash has already failed to brace-expand from dollar-x to dollar-y. Instead, use a C-style for: for ((i=x; i<=y; i++))
