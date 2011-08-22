@@ -1,0 +1,1 @@
+Find all files last modified yesterday (GNU find): find . -newermt 'yesterday 00:00' ! -newermt 'today 00:00'
