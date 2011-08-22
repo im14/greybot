@@ -1,0 +1,1 @@
+Find all files last modified yesterday (GNU date): y=$(date -d yesterday +%Y%m%d) t=$(date +%Y%m%d); touch -t ${y}0000 /tmp/yesterday; touch -t ${t}0000 /tmp/today; find . -newer /tmp/yesterday ! -newer /tmp/today; rm /tmp/{yesterday,today} # Or use $HOME instead of /tmp
