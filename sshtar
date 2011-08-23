@@ -1,1 +1,0 @@
-If you want to duplicate an entire directory hierarchy onto a remote host, you can use tar: cd /source; tar cf - . | ssh me@remotebox 'cd /target && tar xf -'
