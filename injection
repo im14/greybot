@@ -1,1 +1,0 @@
-Only EVER combine two strings when you're CERTAIN they are of the same context. Eg. do NOT put data and code together in a bash/mysql/sed/... command. In bash, you can convert your data to code like this: printf 'rm %q' "$file"
