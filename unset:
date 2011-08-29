@@ -1,1 +1,0 @@
-unset undefines or erases a variable or function from the current shell process. unset <name>, unset myscript, testing if something is unset: Usually it suffices to know whether a variable contains something: [[ $var ]], but to check whether it is truly unset, use: [[ $var || -z ${var-x} ]]
