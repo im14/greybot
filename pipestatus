@@ -1,0 +1,1 @@
+bash: use the PIPESTATUS array, posix sh: http://pipestatus.sf.net
