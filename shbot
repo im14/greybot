@@ -1,0 +1,1 @@
+shbot is !evalbot with other triggers and a few more commands. 2#, 3# and 4# runs commands in bash versions 2, 3 and 4 respectively. sh# runs commands in a POSIX shell (currently dash). Feel free to play with it in #evalbot.
