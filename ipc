@@ -1,1 +1,0 @@
-To communicate between processes, you can use traps and signals, (named) pipes, or files.
