@@ -1,0 +1,1 @@
+Ubuntu doesn't use System V init like you probably expected. It uses "upstart" instead. See http://upstart.ubuntu.com/ or ask in #ubuntu.
