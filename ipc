@@ -1,1 +1,0 @@
-To communicate between processes, you can use file descriptors (stdin/stdout/...), (named) pipes, files or exit codes.
