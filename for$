@@ -1,1 +1,0 @@
-Don't do this: for x in $(command) or `command` or $var. for is used for iterating arguments, not (output) strings. Instead, see http://mywiki.wooledge.org/DontReadLinesWithFor and http://mywiki.wooledge.org/BashFAQ/001
