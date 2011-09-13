@@ -1,1 +1,0 @@
-flatten() { find "${1:-.}" -depth \( -type f -exec mv {} "${1:-.}" \; \) -o \( -type d -empty -exec rmdir {} \; \); } ## usage: flatten <dir>
