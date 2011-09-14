@@ -1,0 +1,1 @@
+ls -lart # very useful to see the files in the current directory sorted by modification time, so you know what has been touched most recently, and hence, where to look for the errors. See !rlart
