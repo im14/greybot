@@ -1,0 +1,1 @@
+Recursive version of ls -lart (required GNU find and sort): find . -type f -printf '%T@ %TY-%Tm-%Td %TX %p\0' | sort -zn | while read -rd '' _ day time path; do printf '%s %s %s\n' "$day" "${time%.*}" "$path"; done
