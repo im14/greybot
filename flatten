@@ -1,0 +1,1 @@
+flatten() { find "${1:-.}" -depth \( -type f -exec bash -c 'f=${1##*/} t=$f i=0; while [[ -e $2/$t ]]; do t=$f.$((++i)); done; mv "$1" "$2/$t"' {} "${1:-.}" \; \) -o \( -type d -empty -exec rmdir {} \; \); } # usage: flatten [dir]
