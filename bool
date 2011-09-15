@@ -1,0 +1,1 @@
+Bash doesn't have boolean variables, but you can shanghai integers for this purpose, just like in C. first=1; errors=0; if ((first)); then ...; if ((! errors)); then ...; ((debug)) && log stuff
