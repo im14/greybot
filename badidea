@@ -1,0 +1,1 @@
+Its a bad idea to add code to a program that increases the size or complexity of the code but adds no functionality. Readability or "remember-ability" of longer command line options -might- qualify as additional functionality. Others may feel it doesn't.
