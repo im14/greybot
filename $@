@@ -1,1 +1,0 @@
-The difference between $@ and $*: Unquoted (don't do this!), none at all: both equal $1 $2 .... With double quotes, "$@" expands each element as an argument: "$1" "$2" ..., while "$*" is expands to all elements merged into one argument: "$1c$2c..." (where c is the first character of IFS). You almost always want "$@". The same goes for arrays: "${myarray[@]}"
