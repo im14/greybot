@@ -1,0 +1,1 @@
+"unary operator expected" typically means you forgot to quote something. [ $foo = bar ] is wrong. [ "$foo" = bar ] is OK.
