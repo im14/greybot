@@ -1,1 +1,0 @@
-<http://mywiki.wooledge.org/DotFiles> Put all your functions, aliases, shopt and set stuff in ~/.bashrc. Make sure ~/.bash_profile sources ~/.bashrc. For GUI logins, SEE YOUR DOCUMENTATION because they're all different and we don't know.
