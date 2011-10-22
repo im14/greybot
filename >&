@@ -1,1 +1,0 @@
-A plain >& is just like &>. cmd >& file is equivalent to cmd >file 2>&1 but the former only works in bash (and csh).
