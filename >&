@@ -1,0 +1,1 @@
+>&word where word is a number or - is FD duplication or closing. A plain >& or >&word (word not numeric or -) is just like &> -- cmd >& file is equivalent to cmd >file 2>&1 but the former is bash- and csh-only.
