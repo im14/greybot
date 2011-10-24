@@ -1,0 +1,1 @@
+http://mywiki.wooledge.org/SignalTrap ## To clean up on exit, don't trap a bunch of signals. Instead, trap cleanupFunc EXIT
