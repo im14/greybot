@@ -1,0 +1,1 @@
+n=$(tput colors) sgr0=$(tput sgr0); for ((i=0;i<n;i++)); do c=$(tput setab $i); printf '%3d: %s%20s %q\n' $i "$c" "$sgr0" "$c"; done
