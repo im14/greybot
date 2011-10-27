@@ -1,0 +1,1 @@
+Bash is one of the few languages that causes a brain glitch in most people's heads making them want to put data in variable names. Don't do that. You probably want associative arrays or functions instead.
