@@ -1,1 +1,0 @@
-File Descriptor. Each process starts with three of them: 0 = standard input, 1 = standard output, 2 = standard error.
