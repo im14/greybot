@@ -1,0 +1,1 @@
+Instead of capturing the output of printf, bash's printf can be assigned directly to a variable. printf -v myvarname %04d "$i"
