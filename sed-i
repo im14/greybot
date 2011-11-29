@@ -1,1 +1,0 @@
-A common request is how to write to the same file as the one you read. "sed -i" is a potential solution, but keep in mind the -i flag to sed is nonstandard and not portable. If in doubt, use a temp file. See !faq 21 and ask me about ed.
