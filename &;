@@ -1,0 +1,1 @@
+&; is always wrong. If you want to run things in the background in a compact one-liner, omit the ';' entirely and simply use '&' between commands. for i in ./*; do my_command "$i" & done # see http://mywiki.wooledge.org/BashPitfalls
