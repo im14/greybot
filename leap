@@ -1,0 +1,1 @@
+isleapyear() { if (($1 % 400 == 0)); then return 0; elif (($1 % 100 == 0)); then return 1; elif (($1 % 4 == 0)); then return 0; else return 1; fi; }
