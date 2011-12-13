@@ -1,1 +1,0 @@
-expect is a tool written in Tcl to automate communication with interactive processes. It should always be your LAST resort, you can expect breakage when using expect. # http://expect.nist.gov/
