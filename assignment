@@ -1,0 +1,1 @@
+To assign to a variable, use varname=value . Do not include spaces around the '=', and do not write $varname on the left hand side.
