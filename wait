@@ -1,0 +1,1 @@
+By default, wait waits for all of your shell's children to exit. If arguments are specified, wait waits for the specified job ids to exit. # http://mywiki.wooledge.org/ProcessManagement
