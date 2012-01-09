@@ -1,0 +1,1 @@
+num=23803400; suffixes=( K M G T ); s=0; while (( num / 1000 )); do (( ++s, num/=1000 )); done; echo "$num${suffixes[s]}"
