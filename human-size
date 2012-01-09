@@ -1,0 +1,1 @@
+num=23803400; suffixes=( '' KiB MiB GiB TiB ); s=0; while (( num / 1024 )); do (( ++s, num/=1024 )); done; echo "$num${suffixes[s]}"
