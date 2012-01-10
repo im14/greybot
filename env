@@ -1,1 +1,0 @@
-Environment Variables (`env`) are NOT the same thing as Bash Parameters (`set`). They are NOT GLOBAL (every process has their own set of env vars), and they are only COPIED from the PARENT when the child process is CREATED. You CANNOT UPDATE another process' variables. Bash lets you assign strings to its OWN env vars by linking a parameter with the same name to it using "export".
