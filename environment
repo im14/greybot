@@ -1,0 +1,1 @@
+Each process has its own private variable space called the "environment". A child inherits a *copy* of the parent's. See http://mywiki.wooledge.org/Environment
