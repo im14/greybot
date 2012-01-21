@@ -1,0 +1,1 @@
+Bash is a shell. That's a program which can do simple math, logic, I/O and run other programs. It's NOT a terminal, it's not a kernel, it doesn't manage the system's authentication or environment, it's not your OS and it's not X, KDE or Gnome.
