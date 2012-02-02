@@ -1,0 +1,1 @@
+# answer=(yes no maybe); echo "${answer[RANDOM % ${#answer[@]}]}"
