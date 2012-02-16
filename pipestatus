@@ -1,0 +1,1 @@
+Bash has a PIPESTATUS array which contains all the return codes of all the commands from the most recent pipeline. sh doesn't, but see http://pipestatus.sf.net
