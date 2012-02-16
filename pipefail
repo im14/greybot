@@ -1,0 +1,1 @@
+''set -o pipefail'': if pipefail is enabled, any pipeline's return status is the value of the last (rightmost) command to exit with a non-zero status, or zero if all commands exit successfully.
