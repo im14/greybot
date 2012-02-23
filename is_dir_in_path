@@ -1,0 +1,1 @@
+Check if a directory is in your PATH: is_dir_in_path() { local path d; IFS=: read -ra path <<<"$PATH"; for d in "${path[@]}"; do [[ $d -ef ${1:-.} ]] && return; done; return 1; } ## Usage: is_dir_in_path [dir]
