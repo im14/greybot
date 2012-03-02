@@ -1,0 +1,1 @@
+Prepare literal data for injection into bash code: printf %q "$data". Eg. ssh host bash <<< "$(printf 'rm %q' "$localvar")"
