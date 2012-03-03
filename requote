@@ -1,0 +1,1 @@
+Prepare literal data for injection into a regular expression: sed 's/./[&]/g'. Eg. grep "^$(sed 's/./[&]/g' <<< "$user"):" /etc/passwd
