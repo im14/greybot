@@ -1,0 +1,1 @@
+Prepare literal data for injection into a URL: urlquote() { while IFS= read -rd '' -n1 c; do printf %%%02x "'$c"; done; }; Eg. curl -s "http://host/?name=$(urlquote "$name")"
