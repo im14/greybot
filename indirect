@@ -1,1 +1,0 @@
-declare -a a=([2]=a b c [14]=d [16]=e f); f() { local -a b keys='(''${!'"$1"'[@]}'')'; echo "$_"; for k in "${keys[@]}"; do set -- "$1"{,[k]}; b[k]="${!2}"; done; declare -p $1 b; }; f a
