@@ -1,0 +1,1 @@
+The classic test command's -a and -o operators, as well as controlling precedence using ( and ) cause many problems and ambiguities, are not portable, and are unsafe with user input. They are all marked as obsolescent by POSIX. If coding for Bash, Ksh, or Zsh, [[ is *highly* preferred over [. See: http://pubs.opengroup.org/onlinepubs/9699919799/utilities/test.html#tag_20_128_16
