@@ -1,1 +1,0 @@
-if <commands>; then <commands>; fi # Not "if [ command ]", not "if [[ $(command) ]]", just "if command". See http://wiki.bash-hackers.org/syntax/ccmd/if_clause http://mywiki.wooledge.org/BashGuide/TestsAndConditionals
