@@ -1,1 +1,0 @@
-basename(1) can strip the directory and extension from a path (a/b/c.d -> c.d or c); can also strip directory from multiple paths (a/b/c, d/e/f, -> c, f) using -a. A parameter expansion can do it cleaner and *much* faster: "${path##*/}", "${path%.*}"
