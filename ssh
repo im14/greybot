@@ -1,0 +1,1 @@
+Secure SHell (#openssh, http://mywiki.wooledge.org/CategorySsh). To run echo "$localVar" remotely, use: ssh user@host bash <<< "$(printf 'echo %q' "$localVar")"
