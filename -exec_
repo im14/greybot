@@ -1,0 +1,1 @@
+find ... -exec sh -c 'blah "$1"' _ {} \; # When invoked with -c, any POSIX shell (including bash) uses the first positional parameter as "$0". '_' is a dummy value, so the passed filename becomes "$1". it could be anything. of course "$0" could be used, but when using -exec {} +, "$@" does not include "$0"
