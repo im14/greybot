@@ -1,1 +1,0 @@
-Environment variables consisting entirely of [A-Z0-9_] are reserved for standard utils and purposes other than use in your scripts. Only variables containing at least one lower-case character they can be safely used in scripts without risking modifying the behavior of other programs. See: http://goo.gl/vHZkS
