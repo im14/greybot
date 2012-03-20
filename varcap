@@ -1,1 +1,0 @@
-No ALL_CAPS variable names! Environment variables consisting entirely of [A-Z0-9_] are reserved for standard utils and purposes other than use in your scripts. Only variables containing at least one lower-case character can be safely used in scripts without risk of modifying the behavior of other programs. See: http://goo.gl/vHZkS
