@@ -1,0 +1,1 @@
+Don't embed shell variables in sed, expecting a fixed string replacement (e.g. sed "s/$foo/$bar/"). It won't work... at best, it'll be extremely prone to bugs. See http://mywiki.wooledge.org/BashFAQ/110
