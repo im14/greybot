@@ -1,0 +1,1 @@
+To check if a var contains a substring: var='something here'; if [[ $var = *thing* ]]; then echo "$var contains 'thing'"; fi - See http://mywiki.wooledge.org/BashFAQ/041
