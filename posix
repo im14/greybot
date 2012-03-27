@@ -1,0 +1,1 @@
+The POSIX standard defines what any modern unix should support. Use just POSIX external commands and options to make portable scripts. See http://www.opengroup.org/onlinepubs/9699919799/utilities/contents.html or search http://pubs.opengroup.org/cgi/kman4.cgi?value=[query]
