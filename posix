@@ -1,1 +1,0 @@
-The POSIX standard defines what any modern unix should supply. Sticking to the commands and options in http://www.opengroup.org/onlinepubs/9699919799/utilities/contents.html will do wonders for the portability of your scripts.
