@@ -1,1 +1,0 @@
-<<<$(command) is pointless. It creates multiple temp files, requires the entire command to run before passing it to stdin, and removes trailing newlines from the command's output. That's what process substition was created for. See http://mywiki.wooledge.org/ProcessSubstitution
