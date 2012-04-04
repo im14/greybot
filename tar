@@ -1,1 +1,0 @@
-Most Linux kiddies have never used any archiver other than tar, so they think they MUST use tar. This is a fundamental problem. Usually tar is a good choice (e.g. to duplicate an ENTIRE file system), but if you need fine-grained control, find|cpio or find|pax wins.
