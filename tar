@@ -1,0 +1,1 @@
+tar is an archiver but not the only one. Usually tar is a good choice (e.g. to duplicate an ENTIRE file system), but if you need fine-grained control, find|cpio or find|pax wins
