@@ -1,0 +1,1 @@
+An array maps numbers to strings. Bash 4 also has associative arrays (maps strings to strings). http://mywiki.wooledge.org/BashSheet#Arrays http://mywiki.wooledge.org/BashFAQ/005 http://wiki.bash-hackers.org/syntax/arrays
