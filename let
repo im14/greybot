@@ -1,1 +1,0 @@
-The parameters of let undergo word splitting and globbing. This means that, e.g. let F=m*A or let a[i]++ can give completely unexpected results if there are files named "F=maxA" or "ai++" in the current directory, or if nullglob is set.
