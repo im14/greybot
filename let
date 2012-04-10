@@ -1,0 +1,1 @@
+Evaluates its arguments as arithmetic. The arithmetic compound command should almost always be preferred. http://wiki.bash-hackers.org/commands/builtin/let See: !((
