@@ -1,0 +1,1 @@
+Never chdir in a script unless you check if it failed! cd $foo; bad. cd "$foo" || exit; good. See /msg greybot pitfalls
