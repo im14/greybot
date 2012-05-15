@@ -1,0 +1,1 @@
+You can "join" an array (write it with a single character of your choice between elements) using: IFS='|'; echo "${array[*]}"; unset IFS
