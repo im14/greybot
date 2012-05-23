@@ -1,0 +1,1 @@
+mysqlquote() { local arg=${1//\\/\\\\}; printf %s "'${arg//\'/\'}'"; }; mysql <<< "UPDATE table SET foo=$(mysqlquote "$foo")"
