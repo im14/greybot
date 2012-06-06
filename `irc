@@ -1,0 +1,1 @@
+DO NOT use back ticks as "irc markup". They are _syntax_, and using them as such can do nothing except lead to confusion
