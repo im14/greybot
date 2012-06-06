@@ -1,1 +1,0 @@
-Prepare literal data for injection into a regular expression: requote() { sed 's/./[&]/g' <<< "$1"; }; grep "^$(requote "$user"):" /etc/passwd
