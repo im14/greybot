@@ -1,0 +1,1 @@
+You do NOT need cat to read file contents, ls to get file names, echo to output stuff or $()/`` to run commands. The specifics of your situation will dictate the correct syntax to use. Explain in English.
