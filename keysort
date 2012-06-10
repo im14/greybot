@@ -1,0 +1,1 @@
+keysort(){ unset b;local i j k n=0;for k in "${!a[@]}";do for((i=0;i<n;i++));do if((${a[${b[i]}]}>${a[$k]}));then for((j=n;j>i;j--));do b[j]=${b[j-1]};done;break;fi;done;b[i]=$k;((n++));done;}# copies the keys of associative array a into b, sorted by the keys' corresponding values
