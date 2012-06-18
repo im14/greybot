@@ -1,0 +1,1 @@
+Prepare literal data for injection into HTML element content: recode ..html <<< "$input"
