@@ -1,0 +1,1 @@
+Prepare literal data for injection into a URL path component or GET attribute: urlquote() { local c; while IFS= read -rd '' -n1 c; do printf '%%%02x' "'$c"; done <<< "$1"; }; curl "http://www.google.com/search?q=$(urlquote "$query")"
