@@ -1,1 +1,0 @@
-By convention, we capitalize environment variables (PAGER, EDITOR, SHELL, ...) and internal shell variables (BASH_VERSION, RANDOM, ...). All other variable names should be lowercase. Remember that variable names are case-sensitive; this convention avoids accidentally overriding environmental and internal variables.
