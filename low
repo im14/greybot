@@ -1,0 +1,1 @@
+low() { local low=$1 i; shift; for i; do ((i < low)) && low=$i; done; printf '%s\n' "$low"; } # finds the lowest numeric value out of the given arguments. usage: low "${array[@]}" or low "$val1" "$val2" ... "$valN"
