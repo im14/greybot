@@ -1,0 +1,1 @@
+max() { local max=$1 i; shift; for i; do ((i > max)) && max=$i; done; printf '%s\n' "$max"; } # finds the highest numeric value out of the given arguments. usage: max "${array[@]}" or max "$val1" "$val2" ... "$valN"
