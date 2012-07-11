@@ -1,0 +1,1 @@
+Injecting data into a type of code is always wrong. Convert your data into code that represents that data before injecting it. This is called quoting or escaping. See ![language]quote (eg. !bashquote !htmlquote !mysqlquote !requote !urlquote)
