@@ -1,0 +1,1 @@
+I can do: !faq {number|string}, !pf {number|string}, !learn key value, !meta key, !forget key, !searchkeys string, !factstats, !faqstats, !faqpages, !date, !version. For help with Bash builtins, use "help command" in bash.
