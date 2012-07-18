@@ -1,0 +1,1 @@
+"set -u", or "set -o nounset", makes use of unset variables an error. To test whether a variable is present when this is active, you can check for [[ ${var-} ]] instead of [[ $var ]].
