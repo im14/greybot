@@ -1,0 +1,1 @@
+Try thinking of FDs as variables. Change > into = and >& into =$. 0=keyboard; 1=terminal; 2=logfile; command 2>&1 1>otherlog; does 2=$1 (so 2=terminal) and 1=otherlog. At the end, command's 0=keyboard, 1=otherlog and 2=terminal
