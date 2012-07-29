@@ -1,0 +1,1 @@
+copy/paste from 'man bash': If |& is used, the standard error of command is connected to command2's standard input through the pipe; it is shorthand for 2>&1 |.
