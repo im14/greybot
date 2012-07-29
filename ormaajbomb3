@@ -1,0 +1,1 @@
+shopt -s lastpipe; set -o pipefail; ((())|[()(]|[)||(())|]()([|])||])
