@@ -1,1 +1,0 @@
-du -sk "$@" | sort -n | awk '{if ($1 > 1048576) printf("%.1fG\t%s\n",$1/1048576,$2); else if ($1 > 1024) printf("%.1fM\t%s\n",$1/1024,$2); else printf("%sK\t%s\n",$1,$2) }'
