@@ -1,0 +1,1 @@
+du -sk "$@" | sort -n | awk -F '\t' -v OFS='\t' '{if ($1 > 1048576) $1 = sprintf("%.1fG",$1/1048576); else if ($1 > 1024) $1 = sprintf("%.1fM",$1/1024); else $1 = sprintf("%sK",$1)} 1'
