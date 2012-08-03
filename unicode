@@ -1,0 +1,1 @@
+Dealing with characters correctly is harder than you might think. eg. a-z does NOT mean "all lowercase letters". http://stackoverflow.com/a/6163129/58803 (skip down to "Assume Brokenness") is an *excellent* introduction to these misunderstandings.
