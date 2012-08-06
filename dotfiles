@@ -1,1 +1,0 @@
-Set up your environment (PATH, LANG, EDITOR, ...) in ~/.bash_profile. Set up your bash shell (PS1, functions, shopts, ...) in ~/.bashrc. Then source .bashrc from .bash_profile. See http://mywiki.wooledge.org/DotFiles
