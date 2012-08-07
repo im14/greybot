@@ -1,0 +1,1 @@
+# getKeys() { local -a 'keys=("${!'"$1"'[@]}")'; printf '<%s> ' "${keys[@]}"; echo; }; arr=({a..c}); getKeys arr
