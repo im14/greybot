@@ -1,0 +1,1 @@
+# a='aaabbbbccccc'; echo "${a:b=$(b=${a%${a##*(a)}};echo ${#b}):$(c=${a%%*(c)};echo ${#c})-b}"
