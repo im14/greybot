@@ -1,0 +1,1 @@
+pastebin.com is ad-supported, and mangles data by converting characters. even the raw version isn't the same as the original data. please use a sane pastebin, such as http://pastie.org, http://pastebin.ca, https://gist.github.com, or http://sprunge.us (''/msg greybot sprunge'' for usage)
