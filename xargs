@@ -1,0 +1,1 @@
+xargs(1) is dangerous (broken) when processing lists that are not NUL-delimited. If you're working with filenames, use find's -exec {} + instead (yes, it does multiple-filenames-per-invocation, too).
