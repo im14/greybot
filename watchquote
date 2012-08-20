@@ -1,0 +1,1 @@
+to help understand how watch(1) handles quotes/parsing, think of it as running this: watch() { sh -c "$*"; while sleep 2; do sh -c "$*'; done; }
