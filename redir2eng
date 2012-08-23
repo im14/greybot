@@ -1,0 +1,1 @@
+x>y: make FD x write to file y. x>&y: make FD x write to where FD y is writing now. If x is omitted, use 1. If y is -, close x. Use < to read instead of write. Exercise: exec 3>&1 >mylog; echo moo; exec 1>&3 3>&-
