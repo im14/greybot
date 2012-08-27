@@ -1,0 +1,1 @@
+split_str() { local sep=$1 str=$2; [[ $1 && $2 ]] || return; split=(); while [[ $str = *"$sep"* ]]; do split+=("${str%%"$sep"*}"); str=${str#*"$sep"}; done; split+=("$str"); } # usage: split_str SEP STRING # splits STRING on the literal string SEP, populating the array "split". for example: s='foo - bar - baz blah - quux'; split_str ' - ' "$s"; printf '%s\n' "${split[@]}"
