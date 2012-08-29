@@ -1,0 +1,1 @@
+"Expansions" and "substitutions" are several stages of pre-processing that commands and arguments are subject to prior to execution. They are among the most important concepts of shell programming. http://wiki.bash-hackers.org/syntax/expansion/intro
