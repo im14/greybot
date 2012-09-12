@@ -1,0 +1,1 @@
+Bash's arrays are only 1 dimensional. You can emulate 2d arrays using "hacks" such as arr[i*29 + j*31]=value
