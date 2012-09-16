@@ -1,0 +1,1 @@
+To communicate between processes, you can use file descriptors (stdin/stdout/...), (named) pipes (mkfifo or |), files, exit codes ($?) or signals (trap + kill). If you are *starting* the other process you can also pass arguments or environment variables.
