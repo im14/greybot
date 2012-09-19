@@ -1,0 +1,1 @@
+To inject data into an awk script, pass the option -v "var=$data" and use var inside your awk code.
