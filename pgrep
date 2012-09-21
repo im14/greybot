@@ -1,0 +1,1 @@
+Use pgrep instead of ps to get PIDs. It saves you from having to parse output that wasn't meant to be parsed. However, finding a process by its name is unsafe. Please look at http://mywiki.wooledge.org/ProcessManagement
