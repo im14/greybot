@@ -1,1 +1,0 @@
-Use pgrep instead of ps to get PIDs. It saves you from having to parse output that wasn't meant to be parsed.
