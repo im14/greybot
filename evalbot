@@ -1,0 +1,1 @@
+shbot runs each session in a new VM as root. Feel free to play with the bot in #evalbot. | Original: http://www.vidarholen.net/contents/evalbot/ | geirha's fork: https://github.com/geirha/shbot | current triggers: https://github.com/geirha/shbot/blob/master/triggers
