@@ -1,1 +1,0 @@
-sh# f() { _f() { x="in f"; echo "$x"; }; x= command eval _f '"$@"'; unset -f _f; }; x="outside f"; echo "$x"; f; echo "$x"
