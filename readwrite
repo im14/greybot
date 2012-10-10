@@ -1,0 +1,1 @@
+in general you can't read and write a the same file at same time. "sort file > file" won't work. If your tool has not an in-place variant, use a temporary file
