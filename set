@@ -1,1 +1,0 @@
-help set <Enter> http://bash-hackers.org/wiki/doku.php?id=commands:builtin:set # set -evx is useful for debugging, set +H for playing in terminal.
