@@ -1,1 +1,0 @@
-Causes unmatched globs to expand to nothing rather than themselves. shopt -s extglob; files=(*); echo "There are ${#files[@]} files." - see: http://mywiki.wooledge.org/NullGlob
