@@ -1,0 +1,1 @@
+zsh prioritizes new features; fish prioritizes command-line user experience but is awful for scripting; POSIX sh is the baseline; csh is evil and to be avoided; ksh is powerful but not many people know/use it... and everything else (ie. scsh) is so niche you don't need to think about it.
