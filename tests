@@ -1,1 +1,0 @@
-Consistently use [[ .. ]] to test strings or files, (( .. )) to test numbers or arithmetics and ''if ..'' to test commands. Do *NOT* use [ .. ] in bash, *only* in sh. See http://mywiki.wooledge.org/BashSheet#Tests and http://mywiki.wooledge.org/BashGuide/TestsAndConditionals
