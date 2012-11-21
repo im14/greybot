@@ -1,0 +1,1 @@
+sum the values of the first column: awk '{tot += $1} END {print tot}'
