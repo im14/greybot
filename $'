@@ -1,0 +1,1 @@
+Bash has a special form of quoting, $'string' in which backslash-character combinations are expanded. For example, IFS=$' \t\n' or echo $'It\'s embedded!'
