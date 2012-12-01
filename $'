@@ -1,1 +1,0 @@
-Bash has a special form of quoting, $'string' in which backslash-character combinations are expanded. For example, echo $'this is a literal tab: \t'
