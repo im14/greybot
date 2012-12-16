@@ -1,0 +1,1 @@
+"Ash" is ambiguous. It is a name shared by a huge family of Bourne-like shells. See: http://www.in-ulm.de/~mascheck/various/ash/ . Currently maintained examples include Dash and Busybox's ash (go to #uclibc for the latter).
