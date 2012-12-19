@@ -1,0 +1,1 @@
+see: http://fvue.nl/wiki/Bash:_Passing_variables_by_reference also: http://wiki.bash-hackers.org/commands/builtin/unset#scope and http://wiki.bash-hackers.org/syntax/arrays#indirection and http://mywiki.wooledge.org/BashFAQ/006#Assigning_indirect.2BAC8-reference_variables
