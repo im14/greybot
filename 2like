@@ -1,0 +1,1 @@
+!1 but without backslash interpretation or stripping of leading/trailing spaces: while read -r; do my-command "$REPLY"; done <inputfile -- or for POSIX shell: while IFS= read -r line; do my-command "$line"; done <inputfile
