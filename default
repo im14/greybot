@@ -1,0 +1,1 @@
+Setting a default value. : "${variable:=DEFAULT}" # The : is necessary. We want the side effects of the parameter expansion, but we don't want to *execute* its value as a command, so we put a null command in front.
