@@ -1,1 +1,0 @@
-# f() if [ "$1" -ge 0 ]; then printf "%s " "$1"; exec sh -c "${2}f "'$(($1 - 1)) "$2"' -- "$@"; fi; (f 9 "$(typeset -f f)"$'\n') # fake TCO
