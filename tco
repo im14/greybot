@@ -1,0 +1,1 @@
+# f() if [ "$1" -ge 0 ]; then printf %s "$1"; exec dash -c "${2}f "'$(($1 - 1)) "$2"' _ "$@"; fi; (f 9 "$(typeset -f f)"$'\n'); printf %s\\n ' See: http://mywiki.wooledge.org/WrapperScript http://jeapostrophe.github.com/blog/2012/05/28/exec-vs-system/'
