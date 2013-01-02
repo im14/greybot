@@ -1,0 +1,1 @@
+Commands ran inside parenthesis are executed in a subshell. Useful for cd'ing into a directory without needing to figure out how to back out. See http://mywiki.wooledge.org/SubShell
