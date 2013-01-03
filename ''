@@ -1,0 +1,1 @@
+'' is preferred for quoting code in #bash, because it has no semantic meaning for the shell; someone can copy-and-paste ''foo'' or the contents within, and the meaning to the shell is the same either way.
