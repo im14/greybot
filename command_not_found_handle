@@ -1,0 +1,1 @@
+command_not_found_handle is a function you can define to handle mistyped or missing commands or whatever. Ubuntu uses it, maybe.
