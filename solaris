@@ -1,0 +1,1 @@
+Evil muleheaded bastards who use a Bourne shell as /bin/sh, which means people who want to target EVERY common Unix-like system have to write their #!/bin/sh scripts using Bourne syntax instead of POSIX.
