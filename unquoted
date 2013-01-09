@@ -1,0 +1,1 @@
+Unquoted $@ and $* give unspecified behavior (as far as we can tell). Always quote them. A partial list of various unquoted behaviors by shell is here: http://wiki.bash-hackers.org/syntax/pe#bugs_and_portability_considerations
