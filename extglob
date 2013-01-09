@@ -1,0 +1,1 @@
+"Extended globs" (shopt -s extglob) allow you to say things like "all files that do not end in .jpg". See http://mywiki.wooledge.org/glob#extglob
