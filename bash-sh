@@ -1,0 +1,1 @@
+bash-code is not sh-code. If you want to limit yourself to POSIX-sh, set your hashbang to #!/bin/sh. If you want to use bash extensions, set it to #!/bin/bash or #!/usr/bin/env bash.
