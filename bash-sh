@@ -1,1 +1,0 @@
-bash and posix-sh are incompatible! Use posix syntax only with #!/bin/sh. use bash syntax only with #!/bin/bash
