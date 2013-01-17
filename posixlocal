@@ -1,0 +1,1 @@
+sh# f() { if ! ${_called_f+false}; then for x; do printf '%s, ' "$x"; done; else _called_f= x= command eval '{ typeset +x x; } 2>/dev/null; f "$@"'; fi; }; x='outside f'; printf "$x, "; f 1 2 3; echo "$x"
