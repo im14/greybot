@@ -1,1 +1,0 @@
-Binary operator, uses the expression on the right hand side as an extended regular expression and returns true if the expression on the left hand side matches the pattern. USE A VARIABLE to hold your regexes: if [[ $var =~ $r ]]; then echo Match; else echo 'No match'; fi
