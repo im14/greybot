@@ -1,0 +1,1 @@
+grep(1) is a tool used to select certain lines from a stream/file. If you want to extract more specific information, use another tool. Maybe sed/awk or a more specific tool for your purpose.
