@@ -1,1 +1,0 @@
-grep is a tool used to select lines that match a pattern. It is not a tool to select patterns out of files. If you don't want lines, consider other tools such as sed.
