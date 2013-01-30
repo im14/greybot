@@ -1,0 +1,1 @@
+GNU date does math on dates and time, in english! example: date -d '+30 days' +%s calculates the new date of today plus 30 days, and "+%s" prints it in epoch-seconds
