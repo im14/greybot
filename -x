@@ -1,1 +1,0 @@
-''set -x'' (or ''bash -x yourscript'') makes bash output the command name and arguments that it will run (after parsing and expansion). Set it by starting a script with ''bash -x ./myscript'' or putting ''set -x'' before the code to debug. ''set +x'' turns this off. To add more information, change PS4: PS4='+ $BASH_SOURCE:$FUNCNAME:$BASH_LINENO:'
