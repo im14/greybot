@@ -1,0 +1,1 @@
+Bash's read -p prints a prompt before reading input. It's incompatible with most Korn shells and Zsh, which use -p for a different purpose. It's also not specified by POSIX. Consider something like this (but note they aren't quite identical): [[ -t 0 ]] && printf %s 'Enter some input: ' >&2; read -${BASH_VERSION+e}r myInput
