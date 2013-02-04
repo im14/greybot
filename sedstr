@@ -1,0 +1,1 @@
+Do not use sed for string manipulation. Your shell can handle it just fine on its own, and is much faster. Forking an external utility like sed for every string manipulation can add _seconds_ to execution time. See http://mywiki.wooledge.org/BashFAQ/100 for proper string manipulation techniques.
