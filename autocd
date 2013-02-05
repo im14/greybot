@@ -1,0 +1,1 @@
+autocd moves to directories automatically without having to prepend them with ''cd'', it's available from bash4+.
