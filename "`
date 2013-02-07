@@ -1,0 +1,1 @@
+cmd1 "`cmd2 \"$1\"`" -- An expression that has never been written in the history of mankind; because that would be correct; and those that don't know enough to not use backticks also by necessity don't know how to quote.
