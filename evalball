@@ -1,0 +1,1 @@
+# while ((++n<=9)) || ! evalBall="eval $evalBall"; do printf -v evalBall 'eval %q' "printf $n;${evalBall-printf 0\\\n}"; done; $evalBall
