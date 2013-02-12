@@ -1,0 +1,1 @@
+cat /etc/passwd | while read user ; do echo "$user" | grep "$user"; done
