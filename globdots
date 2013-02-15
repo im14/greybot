@@ -1,0 +1,1 @@
+glob only dotfiles with ''.[!.]*'' or ''.!(.|)'' (the latter with extglob). the former will not handle ''..foo'', but the latter will
