@@ -1,1 +1,0 @@
-''=~'' is a binary operator used within Bash or ksh93 test expressions ''[['' to match extended regular expressions (ERE). Regex grouping may be done with the BASH_REMATCH array (bash) or .sh.match (ksh93) variables. Older buggy versions of Bash require storing the regex in a variable. ksh93 can use ERE elsewhere via the ~(E) operator. You can't use =~ (or ==) with ''[''.
