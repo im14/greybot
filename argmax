@@ -1,0 +1,1 @@
+ARG_MAX defines the maximum numer of bytes that can be passed to exec(3). On modern Linux it is mostly historic, as since libc 2.8 it is determined depending on the system. # http://www.in-ulm.de/~mascheck/various/argmax/
