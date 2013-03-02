@@ -1,1 +1,0 @@
-On Linux, the kernel constant ARG_MAX historically hardcoded the maximum length of arguments, but since 2.6.?? it is contextual to the system. http://www.in-ulm.de/~mascheck/various/argmax/
