@@ -1,0 +1,1 @@
+pout(){ local field; for field in "${line[@]}"; do [[ $field =~ $re ]] && echo "$field"; done;}; uri_search(){ local LC_ALL=C re='^[A-Za-z][A-Za-z0-9+-\.]*://' file=; local -a line; for file; do while read -r -a line; do pout; done < "$file"; [[ "${line[@]}" ]] && pout; done;} # Usage: uri_search file ...; prints absolute URIs contained in given files
