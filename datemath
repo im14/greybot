@@ -1,0 +1,1 @@
+Some variants of date(1) allow arithmetic. Examples: GNU: date -d "20120510 09:10 GMT +3 days -2 hours" BSD: date -j -v+3d -v-2H -f '%Y%m%d %H:%M %Z' "20120510 09:10 GMT" Busybox: date -d "@$(($(date +%s -D '%Y/%m/%d %H:%M' -d "2012/05/10 09:10") + 3 * (24 * 60 * 60) - 2 * (60 * 60)))"
