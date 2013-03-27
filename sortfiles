@@ -1,0 +1,1 @@
+declare -a files; n=0; while IFS= read -r -d ''; do for((i=0;i<=n;i++)); do if [[ "$REPLY" -nt "${files[i]}" ]]; then for((j=n;j>i;j--)); do files[j]="${files[j-1]}"; done; files[i]="$REPLY"; ((n++)); break; fi; done; done < <(find . -type f -print0) # sorts all files under . in descending order by mtime; requires a find(1) that supports -print0
