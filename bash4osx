@@ -1,0 +1,1 @@
+To install an up-to-date bash on OS X: ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)" && brew install bash && sudo tee -a /etc/shells <<< '/usr/local/bin/bash' && chsh -s /usr/local/bin/bash
