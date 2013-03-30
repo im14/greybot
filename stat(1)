@@ -1,0 +1,1 @@
+is a tool some systems have to display metadata on files and file systems. It is NOT recommended for use in scripts since there are no guarantees that systems have stat(1) and even less guarantees that the options of your stat will in any way resemble the options of another's. For file size, use wc, for time checks use test.
