@@ -1,1 +1,0 @@
-The difference between $@ and $*: Unquoted: the results are unspecified. In Bash, both expand to separate args and then wordsplit and globbed. Quoted: "$@" expands each element as a separate argument, while "$*" expands to the args merged into one argument: "$1c$2c..." (where c is the first char of IFS). You almost always want "$@". Same goes for "${arr[@]}". ALWAYS QUOTE THEM!
