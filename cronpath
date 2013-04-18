@@ -1,0 +1,1 @@
+cron runs jobs with a minimal set of env vars. PATH may be as short as "/usr/bin:/bin". If your job uses commands from other directories, set a different PATH in your crontab or in the script. Also see !path and !crontab
