@@ -1,0 +1,1 @@
+fact() { local n=1 i; for ((i=1; i<=$1; i++)); do n=$((n*i)); done; echo $n; }
