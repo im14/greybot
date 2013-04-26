@@ -1,0 +1,1 @@
+An assignment with a command like ''LC_ALL=C grep ..'' only affects the environment of that executed command. See ENVIRONMENT and SIMPLE COMMAND EXPANSION in ''man bash''. (POSIX "special built-ins" (''enable -s'') are an exception when bash is run in POSIX mode, see IEEE Std 1003.1-2013, section 2.14.)
