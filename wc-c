@@ -1,0 +1,1 @@
+A portable method of finding a file's byte-size is: read size _ < <(wc -c file); or the "hack": size=($(wc -c file))
