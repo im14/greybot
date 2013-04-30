@@ -1,0 +1,1 @@
+Read a file line-by-line: while read -r line; do ...; done < file
