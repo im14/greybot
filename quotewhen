@@ -1,0 +1,1 @@
+"Double quote" _every_ expansion, and anything that could contain a special character, eg. "$var", "$@", "${array[@]}", "$(command)". Use 'single quotes' to make something literal, eg. 'Costs $5 USD'. See <http://mywiki.wooledge.org/Quotes>, <http://mywiki.wooledge.org/Arguments> and <http://wiki.bash-hackers.org/syntax/words>.
