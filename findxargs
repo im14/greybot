@@ -1,0 +1,1 @@
+Don't do this: find ... | xargs. Not even with the -print0/-0 options. Use find ... -exec .. {} + instead.
