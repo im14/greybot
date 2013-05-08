@@ -1,0 +1,1 @@
+print_status() { printf '%*s\r%s\n' "${COLUMNS:-$(tput cols)}" "$2" "$1"; } # usage: print_status LEFT RIGHT
