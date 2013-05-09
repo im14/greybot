@@ -1,0 +1,1 @@
+nohup is a hacky wrapper that will execute a process and prevent SIGHUP from reaching it. From bash, you probably want disown instead: command ... & disown
