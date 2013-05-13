@@ -1,0 +1,1 @@
+If set (shopt -s lastpipe), and job control is not active, the shell runs the last command of a pipeline not executed in the background in the current shell environment. Bash 4.2 and newer only.
