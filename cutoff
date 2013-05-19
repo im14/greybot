@@ -1,0 +1,1 @@
+awk -v nl=42 '{a[FNR]=$0} FNR>nl{print a[FNR-nl];delete a[FNR-nl]}' # POSIX, prints all but the last nl lines of each file named as an argument, or stdin if none given
