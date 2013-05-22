@@ -1,0 +1,1 @@
+PWD is a builtin variable in all POSIX shells that contains the current working directory. pwd(1) is a POSIX utility that prints the name of the current working directory to stdout. Unless you're writing for some non-POSIX system, there is no reason to waste time executing pwd(1) rather than just using PWD.
