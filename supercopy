@@ -1,0 +1,1 @@
+supercopy(){ sudo sh -c 'for file in "${@:2}"; do cp "$file" "$1" && chown "$SUDO_UID":"$SUDO_GID" "$1"/"${file##*/}"; done' _ "$@"; } # usage: supercopy destination files [...]; copies all files to destination and changes the copies' ownership to the uid/gid of the invoking user
