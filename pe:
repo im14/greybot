@@ -1,0 +1,1 @@
+When not performing substring expansion, parameter expansions including a colon cause bash to test for a parameter that is unset or null. The colon can be omitted to skip the test for a null parameter, resulting in a test for only an unset parameter.
