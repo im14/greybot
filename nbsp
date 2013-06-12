@@ -1,0 +1,1 @@
+In some graphical environments, Alt+space, Alt Gr+space or Option+space generate a non-breaking space instead of a regular space. They look the same to us, but not to the shell. ''sed -n l'' will display them differently than regular spaces
