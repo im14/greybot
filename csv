@@ -1,0 +1,1 @@
+Comma Separated Values. A text file in which each line is a "record", and fields within each record are delimited by commas. You can manipulate *simple* CSV files with ''IFS=, read -a fields'' for anything else use a parser (such as Python's CSV module: <http://docs.python.org/library/csv.html> or the 'csvtool' command utility)
