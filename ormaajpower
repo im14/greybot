@@ -1,0 +1,1 @@
+Find greatest 2**n where n < j: bash -c 'j=123 n=1 _=_[n*2\<j?n*=2,0:1] let _; echo "$n"'. About equivalent: ghc -e '(\j -> Control.Monad.Fix.fix (\x n -> if n * 2 >= j then n else x (n * 2)) 1) 123'
