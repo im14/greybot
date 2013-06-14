@@ -1,0 +1,1 @@
+Test if a directory is empty: function isEmpty { typeset dir=${1-.}; [[ -d $dir && -z $(find "$dir" ! -empty \( -printf x -quit \)) ]]; }
