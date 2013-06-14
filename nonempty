@@ -1,0 +1,1 @@
+test if a directory is non-empty, without storing the filenames in an array: if : "$dir"/*; [[ -e $_ ]]; then # you may or may not want to enable dotglob beforehand as well
