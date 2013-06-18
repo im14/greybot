@@ -1,1 +1,0 @@
-mycommand || die "please install mycommand" # see http://mywiki.wooledge.org/BashFAQ/101
