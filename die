@@ -1,0 +1,1 @@
+mycommand || die "please install mycommand" # Using a custom 'die' function from http://mywiki.wooledge.org/BashFAQ/101
