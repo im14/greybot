@@ -1,0 +1,1 @@
+sqlitequote() { printf %s "'${moo//\'/''}'"; }; sqlite3 foo.sqlite <<< "UPDATE table SET foo=$(sqlitequote "$foo")"
