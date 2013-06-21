@@ -1,1 +1,0 @@
-seq(1) is a highly nonstandard program used to count to 10 in silly Linux howtos. For bash2.04+/zsh/ksh93, use for ((i = 1; i <= 10; i++)); do ... . For POSIX and other shells, see !counting
