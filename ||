@@ -1,0 +1,1 @@
+Conditional Operators && and ||: foo || bar && quux - When a command succeeds, the command after the first && following it will be executed. When it fails, the first ||. Eg. [[ -e $file ]] || { echo >&2 "File not found: $file"; exit 1; } # See http://mywiki.wooledge.org/BashSheet#Tests
