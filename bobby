@@ -1,0 +1,1 @@
+http://xkcd.com/327/ ## http://mywiki.wooledge.org/BashWeaknesses ## Don't write database code in bash. Use perl, python, etc; any language with an appropriate library
