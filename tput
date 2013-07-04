@@ -1,1 +1,0 @@
-Do NOT hardcode terminal escape sequences. Use tput with the sequence names from man terminfo to get the right code for your terminal. Eg. red=$(tput setaf 1); echo "Hello ${red}world!"
