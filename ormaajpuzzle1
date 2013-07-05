@@ -1,0 +1,1 @@
+[Difficulty: 7/10]. Write a simple command in Bash that includes the PE: «${_+$(echo moo >&2)}». It must expand the alternate, i.e. _ must be unset.
