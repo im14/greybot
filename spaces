@@ -1,0 +1,1 @@
+Spaces in bash are important syntax: they separate command names and arguments. foo = bar is NOT AN ASSIGNMENT (runs foo with arguments = and bar), if [-d "$dir"] is NOT A TEST (runs the program [-d). Also remember to quote ALL your expansions to avoid unintentionally syntactical spaces from your data: rm "$file" (NOT rm $file).
