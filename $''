@@ -1,0 +1,1 @@
+A special form of quoting, $'string' in which backslash escape sequences are interpreted similarly to C string literals. For example, IFS=$' \t\n' or echo $'It\'s embedded!' http://wiki.bash-hackers.org/syntax/quoting#ansi_c_like_strings
