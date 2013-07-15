@@ -1,0 +1,1 @@
+# for sh in {{b,d}a,k}sh; do printf '%-5s %s\n' "${sh}:" "$("$sh" -s </dev/fd/0)"; done <<<'{ echo foo >/dev/null &>/dev/fd/3 echo bar; } 3>&1'
