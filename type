@@ -1,0 +1,1 @@
+type tells you how a command will be interpreted by the shell. Don't use 'which'; use 'type' instead, because it's portable and consistent.
