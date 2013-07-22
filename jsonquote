@@ -1,0 +1,1 @@
+Prepare literal data for injection into JSON code: jsonquote() { jshon -s "$1"; }; curl -d "{name:$(jsonquote "$USER")}" http://server/service
