@@ -1,0 +1,1 @@
+Regular Expressions are used to *match* certain patterns in strings. They come in several flavors (BRE, ERE, PCRE, and more). Bash only supports EREs (using [[ string =~ pattern ]]). Sed uses BREs. See !ere, !bre, !pcre, http://mywiki.wooledge.org/RegularExpression
