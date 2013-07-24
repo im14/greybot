@@ -1,1 +1,0 @@
-Regular Expressions. These come in several flavors (BRE, ERE, PCRE, and more). See http://wooledge.org/mywiki/RegularExpression and http://www.grymoire.com/Unix/Regular.html and http://www.regular-expressions.info/
