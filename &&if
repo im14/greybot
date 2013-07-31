@@ -1,0 +1,1 @@
+Beware: ''a && b || c'' is NOT THE SAME as ''if a; then b; else c; fi''. The former will run 'c' if EITHER 'a' or 'b' fails. The if will run 'c' ONLY if 'a' fails.
