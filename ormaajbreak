@@ -1,0 +1,1 @@
+# function range { case $2 in "$1") while :; do range "$1" $(($2 - 1)); done;; 0) trap "printf \$2" RETURN; break;; *) range "$1" $(($2 - 1)); esac }; range 3 7
