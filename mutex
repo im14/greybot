@@ -1,0 +1,1 @@
+A mutual exclusion lock ensures your script can only be running once. mkdir "$lockdir" && trap 'rm -rf "$lockdir"' EXIT || exit # Another option: exec 9>> "$lockfile" && [[ $({ fuser -f "$lockfile"; } 2>&- 9>&-) == $$ ]] || exit # (fuser also works read-only and cleanup is implicit) See http://mywiki.wooledge.org/BashFAQ/045 http://wiki.bash-hackers.org/howto/mutex
