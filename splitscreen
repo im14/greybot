@@ -1,0 +1,1 @@
+t=$(mktemp); printf '%s\n' 'screen tail -F somefile' split focus screen > "$t"; screen -S screenname -c "$t"
