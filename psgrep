@@ -1,0 +1,1 @@
+psgrep() { ps -ef | { IFS= read -r h; printf '%s\n' "$h"; grep "$@"; }; } # for interactive use only
