@@ -1,0 +1,1 @@
+Don't use ps(1) in scripts. Its output is outdated and impossible to parse right. Use $! to get the PID of the last asynchronous command. See http://mywiki.wooledge.org/ProcessManagement for anything more complex.
