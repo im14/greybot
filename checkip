@@ -1,0 +1,1 @@
+set -o pipefail; curl -s checkip.dyndns.org | xmllint --html --xpath 'substring-after(/html/body/text(), ": ")' - || echo $'\nOffline'
