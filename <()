@@ -1,0 +1,1 @@
+Process Substitution >(command ...) or <(...) is replaced by a temporary filename. Writing or reading that file causes bytes to get piped to the command inside. Often used in combination with file redirection: cmd1 2> >(cmd2). See http://mywiki.wooledge.org/ProcessSubstitution http://mywiki.wooledge.org/BashFAQ/024
