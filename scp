@@ -1,1 +1,0 @@
-If you have problems with scp, stop using scp and just use ssh directly. It far more robust than scp is. tar cf - dir | ssh user@host 'cd /somewhere && tar xf -'
