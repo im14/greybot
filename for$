@@ -1,0 +1,1 @@
+Never do this: for x in $(command) or `command` or $var. for-in is used for iterating arguments, not (output) strings. Instead, use a glob (eg. *.txt), arrays (eg. "${names[@]}") or a while-read loop (eg. while read -r line). See http://mywiki.wooledge.org/BashPitfalls#pf1 and http://mywiki.wooledge.org/DontReadLinesWithFor
