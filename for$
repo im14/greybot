@@ -1,1 +1,0 @@
-Never do this: for x in $(command) or `command` or $var. for-in is used for iterating arguments, not (output) strings. Instead, use arrays or a while-read loop. See http://mywiki.wooledge.org/BashPitfalls#pf1 and http://mywiki.wooledge.org/DontReadLinesWithFor
