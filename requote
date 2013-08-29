@@ -1,0 +1,1 @@
+Prepare literal data for injection into a regular expression: requote() { sed 's/[^^]/[&]/g; s/\^/\\^/g' <<< "$1"; }; grep "^$(requote "$input")"
