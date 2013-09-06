@@ -1,0 +1,1 @@
+# h=$(date +%H) h=${h#0}; if ((h<=4 || h>=22)); then tod=night; elif ((h>=17)); then tod=evening; elif ((h>=12)); then tod=afternoon; else tod=morning; fi; echo "Good $tod, #bash!"
