@@ -1,1 +1,0 @@
-# h=$(date +%H) h=${h#0} tod=morning; (( h >= 12 )) && tod=afternoon; (( h >= 17 )) && tod=evening; (( h >= 22 || h < 4 )) && tod=night; echo "Good $tod."
