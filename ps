@@ -1,0 +1,1 @@
+Don't use ps(1) in scripts. Its output can't be reliably parsed, and will often leave you vulnerable to TOCTOU (race) bugs. Use $! to get the PID of the last asynchronous command. See http://mywiki.wooledge.org/ProcessManagement for anything more complex.
