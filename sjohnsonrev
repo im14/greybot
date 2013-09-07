@@ -1,0 +1,1 @@
+# echo "gip taf ma I" | sed 's/ /_/g;s/./&\n/g' | tac | xargs | sed 's/ //g;s/_/ /g'
