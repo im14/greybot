@@ -1,0 +1,1 @@
+pdksh was developed as an open-source alternative to AT&T's ksh before it became open-source. pdksh is the default /bin/sh in Interix and Microsoft SUA/SFU. http://www.cs.mun.ca/~michael/pdksh/ -- pdksh has been unmaintained for ~10 years. See !mksh for the current successor.
