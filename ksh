@@ -1,0 +1,1 @@
+"ksh" refers to the Korn shell by David G. Korn at Bell labs. The original Korn shell (ksh88) was the basis for the POSIX sh specification. More generally, it is a family of languages derived from the Bourne and later Korn shells, which includes Bash, zsh, and others.
