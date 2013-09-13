@@ -1,0 +1,1 @@
+mksh is the successor to pdksh. mksh is fast, powerful, lightweight, POSIX-compatible, and has many nice extensions from ksh93/88 and Bash, and a few of its own. If you're using pdksh, upgrade to mksh. /j #!/bin/mksh • https://www.mirbsd.org/mksh.htm
