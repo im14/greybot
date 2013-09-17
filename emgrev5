@@ -1,0 +1,1 @@
+sh# echo "foo bar baz"|(mkfifo f;(while c=$(cat f);do [ "$c" ]||break;s="$c$s";done;echo "$s";cat f>/dev/null)&while dd bs=1 count=1 2>&1 >f|grep '1 byte'>/dev/null 2>&1;do :;done;rm f)
