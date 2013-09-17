@@ -1,0 +1,1 @@
+# echo "gip ylf ma I" | sed 'G;:a;s/\(.\)\(.*\n\)/\2\1/;ta;s/.//'
