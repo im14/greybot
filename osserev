@@ -1,0 +1,1 @@
+# str='gip taf a ma I'; r=; for ((i = 0; i < ${#str}; i++)); do printf -v r '%s%s' "${str:$i:1}" "$r"; done; echo "$r"
