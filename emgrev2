@@ -1,0 +1,1 @@
+# echo "foo bar baz" | { read -r s; paste <(eval printf '%d\\n' {1..${#s}}) <(sed 's/./&\n/g' <<< "$s") | sort -rn | awk -F'\t' '{printf$2}END{print""}';}
