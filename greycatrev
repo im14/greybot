@@ -1,0 +1,1 @@
+# echo "gip yxes ma I" | { read -r; n=${#REPLY}; o=; for ((i=n; i>=0; --i)); do o+="${REPLY:i:1}"; done; echo "$o"; }
