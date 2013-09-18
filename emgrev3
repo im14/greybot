@@ -1,0 +1,1 @@
+# rev(){ cat "$@"|while IFS= read -r -n1 c;do [[ $c ]]&&s="$c$s"||{ echo "$s";s=;};done;}; rev <<<$'foo\nbar baz'
