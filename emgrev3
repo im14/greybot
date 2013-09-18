@@ -1,1 +1,0 @@
-# echo "foo bar baz"|sed 's/./&\n/g'|tac|tr -d \\n
