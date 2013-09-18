@@ -1,0 +1,1 @@
+sh# rev() { cat "$@"|while c=$(dd bs=1 count=1 2>/dev/null;printf x); do [ "$c" = "$(printf \\nx)" ]&&{ echo "$s";s=;continue;};c=${c%x};[ "$c" ]||break;s=$c$s;done;}; printf 'foo\nbar baz\n' | rev
