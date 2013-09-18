@@ -1,0 +1,1 @@
+sh# rev(){ cat "$@"|(mkfifo f;while c=$(printf x|cat f -);do c=${c%x};[ "$c"x != "$(printf \\nx)" ]&&s=$c$s||{ [ "$c" ]&&echo "$s";s=;};done 2>/dev/null&while dd bs=1 count=1 2>&1 >f|grep '1 byte'>/dev/null 2>&1;do :;done;cat f&:>f;rm f);}; printf 'foo\nbar baz\n' | rev
