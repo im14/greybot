@@ -1,0 +1,1 @@
+A colon separated list of "ignorespace", "ignoredups" and/or "erasedups" to control how lines are saved in the history. Also see HISTIGNORE.
