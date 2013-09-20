@@ -1,1 +1,0 @@
-# ( n=10 x= POSIXLY_CORRECT= BASH_XTRACEFD=1 PS4='; ' set -x; while ((n--)); do x= ${x:-true ${x:=:}}; done ) | tr -d \\n
