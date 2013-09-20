@@ -1,0 +1,1 @@
+# s="gip etuc a ma i" i=-1 IFS=$'\n'; for c in $(sed 's|.|&\n|g' <<< "$s"); do ((i++)); alias "$i"="printf %s \"$c\""; done; unset IFS; for i in $(eval echo {$i..0}); do eval ${BASH_ALIASES[$i]}; done
