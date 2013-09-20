@@ -1,1 +1,0 @@
-# n=10 x= POSIXLY_CORRECT=; while printf "${x:-true} "; ((n--)); do x= ${x:-true ${x:=:}}; done
