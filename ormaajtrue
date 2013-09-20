@@ -1,0 +1,1 @@
+sh# ( f() { if [ $1 -gt 0 ]; then f $(($1 - 1)); else PS4="; " set -x; fi; x= ${x:-true ${x:=:}}; }; x= f 10 ) 2>&1 | tr -d \\n
