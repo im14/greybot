@@ -1,0 +1,1 @@
+watch() { local t=$1; shift; while sleep $t; do clear; "$@"; done; }
