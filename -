@@ -1,0 +1,1 @@
+Tools generally consider an argument that begins with a - as an option. To pass a filename that begins with a -, prefix it with its path: rm ./-foo. Also: rm -- -foo (see !--). - alone can also mean stdin.
