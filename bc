@@ -1,0 +1,1 @@
+bash can do simple calculations itself: x=3; y=5; sum=$((x+y))
