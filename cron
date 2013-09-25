@@ -1,1 +1,0 @@
-Cron runs jobs on a scheduled basis; 'at' runs them once. See 'man 5 crontab' (Linux) or 'man crontab' (everything else) for syntax. Note: some implementations have an extra field for username.
