@@ -1,1 +1,0 @@
-Always use [[ .. ]] for testing strings or files, (( .. )) for testing numbers (but not zero-padded!) and ''if ..'' for testing commands. Do *NOT* use [ .. ] in bash (only in sh). See <http://mywiki.wooledge.org/BashSheet#Tests> and <http://mywiki.wooledge.org/tests>. Difference between [ and [[: <http://mywiki.wooledge.org/BashFAQ/031>
