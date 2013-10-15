@@ -1,0 +1,1 @@
+You can't realistically parse tag-based markup languages like HTML or XML using Bash, grep, sed, cut, etc. Look into xmlstarlet|xmlgawk|xpath|xml2(XML) or learn XSLT(try xsltproc). Ask #xml for more help, this is not a #bash question.
