@@ -1,0 +1,1 @@
+You can't parse structured languages like HTML or XML using bash, grep, sed, cut, etc. Look into tidy, xmllint, xmlstarlet, ... Eg. xmllint --html --xpath '//p[@id="head"]//b[@class="name"]/text()' - <<< '<body><p id="head">Hello, <b class="name">Bob' -- Ask #xml for XPath/XSLT help, that is not a #bash question.
