@@ -1,1 +1,0 @@
-is a tool written in Tcl. We don't support it here, because Tcl is not Bash. Go to #tcl, or http://expect.nist.gov/. See also pexpect (written in Python, supported in #python): http://www.noah.org/wiki/pexpect. See also http://empty.sf.net/
