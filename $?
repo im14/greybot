@@ -1,1 +1,0 @@
-The special parameter ? (expanded by $?) holds the exit status of the last synchronous command. It is an 8-bit integer (0-255) where 0 indicates success and non-0 a command-specific failure. A kill'ed command exits with 128+the signal that killed it. Avoid thinking about exit codes as true or false. http://wiki.bash-hackers.org/dict/terms/exit_status
