@@ -1,0 +1,1 @@
+By convention, environment variables (PATH, EDITOR, SHELL, ...) and internal shell variables (BASH_VERSION, RANDOM, ...) are fully capitalized. All other variable names should contain at least one lowercase letter. Since variable names are case-sensitive, this convention avoids accidentally overriding environmental and internal variables.
