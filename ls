@@ -1,1 +1,0 @@
-ls is a tool for interactively looking at file information. Its output is formatted for humans and will cause bugs in scripts. Use globs or find instead. Understand why: http://mywiki.wooledge.org/ParsingLs
