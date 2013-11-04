@@ -1,0 +1,1 @@
+DO NOT USE ls' output for anything. ls is a tool for interactively looking at directory metadata. Any attempts at parsing ls' output with code are broken. Globs are much more simple AND correct: ''for file in *.txt''. Read http://mywiki.wooledge.org/ParsingLs
