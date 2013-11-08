@@ -1,0 +1,1 @@
+sh is NOT bash. It is a POSIX/bourne shell. To run bash code, your script MUST have #!/bin/bash at the top and it MUST be either executed directly or with bash (ie. NOT sh myscript). Some /bin/sh link to bash, you cannot rely on this and it will disable most bash features. http://mywiki.wooledge.org/BashGuide/Practices#Choose_Your_Shell
