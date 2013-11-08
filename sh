@@ -1,1 +1,0 @@
-sh is the POSIX or Bourne shell, not bash. Even if sh is a symlink to bash, running a script under 'sh' (either by typing 'sh myscript' or putting '#!/bin/sh' at the top) *disables* many bash features. See http://mywiki.wooledge.org/BashGuide/Practices#Choose_Your_Shell
