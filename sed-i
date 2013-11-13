@@ -1,0 +1,1 @@
+Some sed(1)s have -i which claims to "modify" files. It does not: sed is not a FILE editor; its -i flag re-writes the entire file and replaces the original with the new. This breaks open handles, symlinks and more. -i is also unportable: valid sed on one system will write broken files on another. Use ed(1) or ex(1) instead: eg. ex -sc '%s/a/b/|wq' file
