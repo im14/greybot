@@ -1,0 +1,1 @@
+Output a command to expand 1 million args: function braceify { [[ $1 == +([[:digit:]]) ]] || return; typeset -a a; read -ra a < <(factor "$1"); eval "echo $(printf '{$(printf ,%%.s {1..%s})}' "${a[@]:1}")"; }; printf 'eval printf "$arg"%s' "$(braceify 1000000)"
