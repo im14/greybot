@@ -1,0 +1,1 @@
+sudoedit is a wrapper around sudo that allows editing of files not owned by you, which does proper file locking etc. You should use it for editing files in /etc. Equivalent to sudo -e.
