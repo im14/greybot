@@ -1,0 +1,1 @@
+set -x (or ''bash -x myscript'') makes bash output the exact command that it will run after parsing and expansion. You can put ''set -x'' just before the code you want to debug (turn off with ''set +x''). To add more information, change PS4 first: eg. PS4='+($?) $BASH_SOURCE:$FUNCNAME:$LINENO:'
