@@ -1,0 +1,1 @@
+NEVER combine two strings of a different context. First, convert them to be of the same context. BAD: ssh host "rm $file" GOOD: ssh host "$(printf 'rm %q' "$file")" - BAD: mysql <<< "INSERT Students SET Name=$name" GOOD: mysql <<< "INSERT Students SET Name=$(mysqlquote "$name")" - Try ![lang]quote (eg. !shquote, !requote, !urlquote, ...)
