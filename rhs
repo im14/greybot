@@ -1,0 +1,1 @@
+# var="[a-z]"; [[ $var = $var ]] || echo "this is false, and why you should quote the RHS of = in [[ ]]"
