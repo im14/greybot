@@ -1,0 +1,1 @@
+Bypassing security (eg. chmod -R 777 ., sudo !!) is not a fix. If it makes the problem go away, it's at most useful diagnostically. Figure out why your security is breaking your code and do it right.
