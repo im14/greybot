@@ -1,1 +1,0 @@
-C-style for loop: for (( expr; expr; expr )); do COMMANDS; done # Each expr is done in a math context. Example: for ((i=1; i<=n; i++)); do echo "$i"; done
