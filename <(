@@ -1,1 +1,0 @@
-Process Substitution: >(command ...) or <(...) is replaced by a temporary filename. Writing or reading the file passes the bytes to/from the command inside. Usually combined with redirection. cmd1 2> >(cmd2) -> cmd1 2>/tmp/input-of-cmd2; sed 2d <(dmesg) -> sed 2d /tmp/output-of-dmesg. http://mywiki.wooledge.org/ProcessSubstitution
