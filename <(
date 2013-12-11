@@ -1,0 +1,1 @@
+Process Substitution: >(command ...) or <(...) is replaced by a temporary filename. Writing or reading the file passes the bytes to/from the command inside. Often combined with file redirection. sed 1d <(df) -> sed 1d /tmp/output-of-df. http://mywiki.wooledge.org/ProcessSubstitution
