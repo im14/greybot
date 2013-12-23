@@ -1,0 +1,1 @@
+Anything with Gtk bindings can substitute if xclip is annoyingly unavailable (e.g. 64-bit Cygwin): csharp -pkg:gtk-sharp-3.0 -e 'Gtk.Application.Init(); Console.WriteLine(Gtk.Clipboard.Get(Gdk.Atom.Intern("CLIPBOARD", false)).WaitForText())'
