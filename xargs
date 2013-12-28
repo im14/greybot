@@ -1,0 +1,1 @@
+xargs(1) is dangerous (broken, exploitable, etc.) when reading non-NUL-delimited input. If you're working with filenames, use find's -exec [command] {} + instead or -print0 | xargs -0 unless you don't care about portability and like doing unnecessary extra work.
