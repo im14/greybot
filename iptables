@@ -1,0 +1,1 @@
+Every iptables(1) invocation will download the ruleset from the kernel, perform the modification — in case of -A this is adding just one rule — and upload it back into the kernel. Repeat that n times, and you get a cost factor of O(n^2) to perform n operations. Use iptables-restore(1) for one atomic operation: http://inai.de/documents/Perfect_Ruleset.pdf
