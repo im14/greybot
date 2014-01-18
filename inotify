@@ -1,0 +1,1 @@
+inotifywait is a shell interface to the Linux inotify API for filesystem events. inotifywait isn't safe for robust scripts because it can't output nul delimiters. Better cross-platform alternatives are watchdog (python) and System.IO.FileSystemWatcher (mono/.NET) which both support inotify, kqueue, Windows fs events, etc. https://github.com/rvoicilas/inotify-tools/
