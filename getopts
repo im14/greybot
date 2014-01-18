@@ -1,0 +1,1 @@
+while getopts ab: name; do case $name in a) a=1;; b) b=$OPTARG;; ?) echo invalid;; esac; done; shift $((OPTIND - 1)) # Tutorial: http://wiki.bash-hackers.org/howto/getopts_tutorial Examples: http://mywiki.wooledge.org/BashFAQ/035
