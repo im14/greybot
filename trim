@@ -1,0 +1,1 @@
+trim whitespace, like SQL TRIM(): foo="${foo##+( )}" foo=${foo%%+( )}
