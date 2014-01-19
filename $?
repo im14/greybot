@@ -1,0 +1,1 @@
+The special parameter ? (expanded by $?) holds the exit status of the last synchronous command.
