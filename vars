@@ -1,0 +1,1 @@
+There are two types of variables. Most variables in bash are Shell Variables (foo=bar). They exist only in the running shell and are inherited by subshells. Environment Variables (export foo=bar) are variables that exist in every process. They are NOT global, every child gets a fresh copy of the parent's whole environment. http://mywiki.wooledge.org/Environment
