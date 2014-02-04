@@ -1,0 +1,1 @@
+You can duplicate an entire directory hierarchy onto a remote host using ssh and pax: cd /source && pax -w . | ssh me@remotebox 'cd /target && pax -r'
