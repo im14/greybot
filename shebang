@@ -1,0 +1,1 @@
+The top of a script MUST have a #! line, called 'shebang' or 'hashbang'. It tells the kernel what program to run your script with. We recommend `#!/usr/bin/env bash` (why: http://stackoverflow.com/a/733901/58803). http://mywiki.wooledge.org/BashGuide/CommandsAndArguments#Scripts http://www.in-ulm.de/~mascheck/various/shebang/
