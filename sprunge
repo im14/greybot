@@ -1,0 +1,1 @@
+To upload to sprunge from your terminal, use: <command> | curl -F 'sprunge=<-' http://sprunge.us # or see !sprungefunc.
