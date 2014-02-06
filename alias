@@ -1,0 +1,1 @@
+An alias makes a derivative of a command (eg. alias l='ls -l'). The alias should accept all the options the original command did. Usually, you DO NOT want an alias, but a function instead, eg. cdw() { cd ~/Documents/work; }
