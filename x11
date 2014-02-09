@@ -1,0 +1,1 @@
+In order for programs to do something involving X11, the program needs to know which X11 to connect with and how to connect with it. This is usually done by setting the DISPLAY environment variable, eg DISPLAY=:0 command
