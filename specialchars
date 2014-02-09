@@ -1,0 +1,1 @@
+Inside single quotes there are no special characters (but you can't put a single quote *inside* a single-quoted string); inside double quotes, \ and $ are special; outside quotes, \ and $ & ( ) | ; < > * ? [ ] are special along with whitespace, and in certain contexts # = ~ { } are also special.
