@@ -1,1 +1,0 @@
-manfo() { info "$@" | less; }; # Read info docs like a man!
