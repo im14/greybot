@@ -1,0 +1,1 @@
+manfo() { info "$@" | ${PAGER:-less}; }; # Read info docs like a man!
