@@ -1,0 +1,1 @@
+SIGTERM: Tells a process to clean up and stop running. SIGINT: User wants to drop back to his shell. SIGQUIT: User saw a bug and wants you to dump debug info. SIGHUP: User closed his terminal. SIGKILL: User wants you to drop what you're doing and stop immediately.
