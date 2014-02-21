@@ -1,0 +1,1 @@
+Bash doesn't support multi-dimensional arrays. Common substitutes are: 1. directories, eg. firstName=$(<~/.myscript/names/first/"$person"); 2. shared indexes, eg. name="${firstNames[person]} ${lastNames[person]}"; 3. merge in associative key, eg. declare -A names=( ["0-first"]=John ["0-last"]=Doe ["1-first"]=Jane ["1-last"]=Doe ); 4. primes, eg. names[i*29 + j*31]=value
