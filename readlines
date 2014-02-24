@@ -1,0 +1,1 @@
+Read lines from a file (or stdin) into an array: ## Bash 4: mapfile -t lines < file; ## Bash <4: while IFS= read -r lines[l++]; do :; done < file
