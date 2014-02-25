@@ -1,0 +1,1 @@
+In bash, whitespace is syntax. You can't be lax with it: var=value; [[ "$var" = "$value" ]]
