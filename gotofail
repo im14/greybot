@@ -1,0 +1,1 @@
+Proper formatting and indenting is important to avoid misunderstanding the scopes, blocks and contexts in your program. Apple broke SSL with a badly indented ''goto fail;'' https://www.imperialviolet.org/2014/02/22/applebug.html
