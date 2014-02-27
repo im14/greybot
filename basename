@@ -1,0 +1,1 @@
+basename(1) can strip the directory and extension from a path (directory/subdirectory/filename.extension -> filename.extension or filename). A parameter expansion can do it cleaner and *much* faster: "${path##*/}", "${path%.*}", at the cost of missing corner cases like path=/
