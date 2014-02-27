@@ -1,0 +1,1 @@
+[ or test is the POSIX test command. It can do simple tests on files and strings. In bash, you should use the more powerful [[ instead and ban [ for sake of consistency. [[ can do pattern matching, is faster and safer to use. http://mywiki.wooledge.org/BashGuide/TestsAndConditionals http://mywiki.wooledge.org/BashFAQ/031
