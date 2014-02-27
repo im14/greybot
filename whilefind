@@ -1,0 +1,1 @@
+To iterate over find results safely: while IFS= read -r -d '' file; do ...your code...; done < <(find ...your predicates... -print0)
