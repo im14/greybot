@@ -1,0 +1,1 @@
+[ is NOT part of the `if' syntax. It's a normal, ordinary COMMAND, like grep and rm. Like `if grep ..', `if [' just checks its exit status. And just like `ifgrep`, `if[` is wrong. http://mywiki.wooledge.org/BashGuide/TestsAndConditionals
