@@ -1,1 +1,0 @@
-rand() { local max=$((32768 / $1 * $1)); while (( (r=$RANDOM) >= max )); do :; done; r=$(( r % $1 )); } ## Returns random number from 0 to ($1-1) in globar var 'r'.
