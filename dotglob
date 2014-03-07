@@ -1,0 +1,1 @@
+dotglob, if set, makes bash include filenames beginning with a '.' (excluding . and ..) in the results of pathname expansion (shopt -s dotglob)
