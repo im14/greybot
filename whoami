@@ -1,0 +1,1 @@
+whoami is not a standard command, use the more portable "id -un" instead. bash offers UID and EUID, and your system the LOGNAME environment variable.
