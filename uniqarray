@@ -1,0 +1,1 @@
+# typeset -a a=(a b c c d d d e f '' '' _ _); o=$(typeset -p a); typeset -A vals; for key in "${!a[@]}"; do ((vals[_${a[key]}]++)) && unset -v 'a[key]'; done; printf 'before: %s\nafter: %s\n' "$o" "$(typeset -p a)"
