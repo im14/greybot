@@ -1,0 +1,1 @@
+ex is a POSIX command-based file editor: ex -sc '%s/long john/big ed/g|x' file. If your ex is vim, you probably want ge instead of g and argdo: ex -sc 'argdo %s/foo/bar/ge|x' *.txt # See http://pubs.opengroup.org/onlinepubs/9699919799/utilities/ex.html
