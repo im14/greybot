@@ -1,0 +1,1 @@
+echo outputs a string. echo has many portability problems, and should never be used with option flags. Consider printf instead: printf 'name: %s\n' "$name". http://wiki.bash-hackers.org/commands/builtin/echo | http://cfajohnson.com/shell/cus-faq.html#Q0b | http://www.in-ulm.de/~mascheck/various/echo+printf
