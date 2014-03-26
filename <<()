@@ -1,0 +1,1 @@
+command < <(othercommand) # Same thing as ''othercommand | command'' but without subshelling 'command'. Uses file redirection (<) to redirect a file created by process substitution (<()). The space between < and <(..) is important to avoid ambiguity (is it a heredoc, is it a redirected PS?).
