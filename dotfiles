@@ -1,0 +1,1 @@
+Set up your environment (PATH, LANG, EDITOR, ...) in ~/.bash_profile. Set up your bash shell (PS1, functions, shopts, ...) in ~/.bashrc. Then source .bashrc from .bash_profile. See <http://mywiki.wooledge.org/DotFiles>. For GUI logins, SEE YOUR DOCUMENTATION or ask your OS channel because they're all different and we don't know.
