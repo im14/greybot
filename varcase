@@ -1,0 +1,1 @@
+By convention, environment variables (PATH, EDITOR, SHELL, ...) and internal shell variables (BASH_VERSION, RANDOM, ...) are fully capitalized. That means all bash variables must be all uppercase. This convention helps to increase the obfuscation and randomness of your scripts.
