@@ -1,0 +1,1 @@
+-f FILE True if file exists and is a regular file. (from help test)
