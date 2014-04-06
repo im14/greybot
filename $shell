@@ -1,0 +1,1 @@
+The SHELL environment variable is normally set to the login shell specified in the passwd database (/etc/passwd) when you log in. It does NOT reflect what shell you're currently in. For that, try: ps -p $$
