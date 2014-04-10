@@ -1,0 +1,1 @@
+The correct way to get a shell variable into awk is with awk's -v flag, not by putting the $var into the awk code. var=foo; awk -v name="$var" 'BEGIN{print "Hello " name}'
