@@ -1,0 +1,1 @@
+If an error happens, bash does not create an environment for exceptions unlike many programming languages. It uses the C model for error handling: it makes you do it. Use a decent programming language, silly.
