@@ -1,0 +1,1 @@
+"Pretty-print" your bash code: pretty() { printf 'pretty(){\n%s\n}\ndeclare -f pretty\n' "$(cat)" | bash; } ## Usage: pretty < myscript
