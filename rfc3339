@@ -1,0 +1,1 @@
+A good, simple profile of iso8601, compatible with many others. With (GNU) date: «date --rfc-3339=seconds» or «date '+%Y-%m-%d %H:%M:%S%:z'». Configure your syslog-ng.conf with: «ts_format(rfc3339)». www.ietf.org/rfc/rfc3339.txt
