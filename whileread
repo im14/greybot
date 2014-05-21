@@ -1,0 +1,1 @@
+A while loop that reads line-by-line: while IFS= read -r line; do something "$line"; done
