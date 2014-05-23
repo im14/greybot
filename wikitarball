@@ -1,0 +1,1 @@
+# echo wget http://wooledge.org/mywiki.wooledge.org-$(date +%Y%m01).tar.bz2
