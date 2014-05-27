@@ -1,0 +1,1 @@
+/tmp/* /tmp/.[!.]* /tmp/..?* … That hard-to-remember glob for selecting /tmp/* ∪ /tmp/.* ∩ /tmp/{.,..}
