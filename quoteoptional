@@ -1,0 +1,1 @@
+You should almost always "double quote your $expansions". There are a few cases where quotes are optional, though: in assignments that contain no literal spaces (eg. foo=$bar), inside [[ except for the RHS (eg. [[ -e $file ]]) and inside complex PEs that are already quoted (eg. echo "${file//$USER/bob}").
