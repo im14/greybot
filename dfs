@@ -1,0 +1,1 @@
+function dfs { typeset x; for x; do if [[ -e $x ]]; then printf '%q\n' "$x"; [[ -d $x ]] && dfs "$x"/*; fi; done; };
