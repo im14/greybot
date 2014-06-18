@@ -1,0 +1,1 @@
+Try to stick to POSIX for all externals but do NOT limit your shell code to POSIX sh: Depend on bash and use its features to the fullest instead. POSIX sh is so primitive you can only get things done reliably through hacks, if at all.
