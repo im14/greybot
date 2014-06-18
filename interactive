@@ -1,0 +1,1 @@
+You can test if your current shell is an interactive shell using [[ $- == *i* ]]
