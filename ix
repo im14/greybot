@@ -1,0 +1,1 @@
+Upload to http://ix.io from your terminal: <command> | curl -n -F 'f:1=<-' http://ix.io # Or use the 'ix' client: curl http://ix.io/client -o /usr/local/bin/ix
