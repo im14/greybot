@@ -1,0 +1,1 @@
+Process Substitution: <(command) or >(command) is replaced by a FIFO or /dev/fd/* entry. Basically shorthand for setting up a named pipe. See <http://mywiki.wooledge.org/ProcessSubstitution>. Example: diff -u <(sort file1) <(sort file2)
