@@ -1,0 +1,1 @@
+"Double quote" _every_ expansion: "$var", "$@", "${array[@]}", "$(command)". Use 'single quotes' to make something literal: 'Costs $5 US'. Always single-quote literal code: ssh "$host" 'echo $HOME'. See <http://mywiki.wooledge.org/Quotes>, <http://mywiki.wooledge.org/Arguments> and <http://wiki.bash-hackers.org/syntax/words>.
