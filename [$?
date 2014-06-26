@@ -1,0 +1,1 @@
+Don't do this: ``mycommand; if [ $? -eq 0 ]'' -- You're running the [ command and checking its exit code to test whether "mycommand"'s exit code is 0. That's a pointless operation, test mycommand directly: ``if mycommand''
