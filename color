@@ -1,0 +1,1 @@
+Don't use things like \e[1;32m, they only work in some terminals. Use tput and see man terminfo instead. Eg. red=$(tput setaf 1); echo "hello ${red}world" # See http://mywiki.wooledge.org/BashFAQ/037 http://to.lhunath.com/bashlib#L204
