@@ -1,0 +1,1 @@
+42# set a b c; IFS=lol; IFS=- command cat <<<"${*} ${IFS} ${*}"
