@@ -1,0 +1,1 @@
+Don't do this: ``mycommand; if [ $? -eq 0 ]'' -- You're running the [ command and checking its exit code to test
