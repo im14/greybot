@@ -1,0 +1,1 @@
+In bash, a list of things is expressed using arrays: things=( Bob "Long John" /home/* ). Do NOT use string variables (things="Bob Long John /home/*") and do NOT use wordsplitting: for thing in $(find /things/*). See !arrays !wordsplitting !drlwf !quotewhen
