@@ -1,0 +1,1 @@
+$SECONDS expands to the amount of seconds since your shell was started. Can be useful for timing script operations. Note you can do SECONDS=0 and it starts counting from 0 again!
