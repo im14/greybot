@@ -1,0 +1,1 @@
+''GREP="/usr/bin/grep -i"; $GREP $FILE'' -- Do NOT put command names or options in variables. Doing so is dangerous and buggy. Variables are containers for DATA. Either inline the command completely or use a *function* instead. http://mywiki.wooledge.org/BashFAQ/050
