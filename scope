@@ -1,0 +1,1 @@
+All variables are global to the script by default. local/declare/typeset inside a function makes the variable local to the function. Use subshells (eg. (), $(), ...) if you need an explicit scope. http://wiki.bash-hackers.org/scripting/basics#variable_scope
