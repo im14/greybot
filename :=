@@ -1,0 +1,1 @@
+${parameter:=word} Assign Default Values. If parameter is unset or null, the expansion of word is assigned to parameter.
