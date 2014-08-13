@@ -1,0 +1,1 @@
+The parameter _ is often used as a dummy variable in read commands to discard unwanted fields. It should not be used this way in portable scripts due to known conflicting usages in several common shells. See also: $_
