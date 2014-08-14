@@ -1,0 +1,1 @@
+Short-circuit control operators <http://mywiki.wooledge.org/BashSheet#Tests> A || B means "Run A. If A fails, run B." A && B means "Run A. If A succeeds, run B." Example: foobar || { echo "error" >&2; exit 1; }
