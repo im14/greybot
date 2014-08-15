@@ -1,0 +1,1 @@
+''. <script>'' (or "source", which is not portable) reads and executes the commands from <script> in the current shell.
