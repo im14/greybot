@@ -1,0 +1,1 @@
+# rev() { sed -e 'G;:a' -e 's/\(.\)\(.*\n\)/\2\1/;ta' -e 's/.//' "$@";}; rev <<<$'foo\nbar baz'
