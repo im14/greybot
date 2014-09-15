@@ -1,0 +1,1 @@
+Use for when iterating over a list/array, or (C-style for) when counting. Use while when reading input lines, or when the stop condition is an arbitrary command. Ask me about <drlwf>.
