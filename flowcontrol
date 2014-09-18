@@ -1,1 +1,0 @@
-to disable the XON/XOFF flow control in your terminal put ``stty -ixon'' in your .bashrc
