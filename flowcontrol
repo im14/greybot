@@ -1,0 +1,1 @@
+to disable the XON/XOFF flow control in your terminal put ``stty -ixon'' in your .bashrc; if you use the screen utility, start it with option -fn (no flow control) or add "defflow off" line to your .screenrc
