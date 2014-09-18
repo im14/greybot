@@ -1,0 +1,1 @@
+Always use read with the -r option, otherwise backslashes are special. http://wiki.bash-hackers.org/commands/builtin/read#read_without_-r
