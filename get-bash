@@ -1,0 +1,1 @@
+curl -o get-bash http://sprunge.us/cjBH; chmod +x ./get-bash; openssl sha1 get-bash # cb2895d8c1e6146f5b6d661776ead6382eb0540b (run with ./get-bash)
