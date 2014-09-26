@@ -1,0 +1,1 @@
+curl -o get-bash http://sprunge.us/fQaZ; chmod +x ./get-bash; openssl sha1 get-bash # SHA1: 493e2fe244025bdc668a432a84323a0f5cfe11f8 (run with ./get-bash)
