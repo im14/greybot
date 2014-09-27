@@ -1,0 +1,1 @@
+a='() { :;}; echo CVE-2014-6271 FAIL' b='() { (b)=>\' bash -c '/dev/stdout echo CVE-2014-7169 FAIL||echo CVE-2014-7169 OK;a||echo CVE-2014-6271 OK' 2>/dev/null
