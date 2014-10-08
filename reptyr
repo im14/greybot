@@ -1,0 +1,1 @@
+ptrace-based hack that forces modification of a process's controlling terminal. https://github.com/nelhage/reptyr
