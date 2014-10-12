@@ -1,0 +1,1 @@
+Cargo cult programming is copying pieces of code from other programs, without actually knowing what the code does. Subsequent debugging involves rearranging commands to minimize the number of error messages.
