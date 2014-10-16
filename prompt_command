@@ -1,0 +1,1 @@
+PROMPT_COMMAND: If set, the value is executed as a command prior to issuing each primary prompt. (man bash)
