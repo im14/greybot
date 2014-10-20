@@ -1,0 +1,1 @@
+trim whitespace, like SQL TRIM() -- For shell variables: «shopt -s extglob; x=${x##+([[:space:]])} x=${x%%+([[:space:]])}». For streams: «cmd | sed 's/^[[:space:]]*//; s/[[:space:]]*$//'». See: http://mywiki.wooledge.org/BashFAQ/067
