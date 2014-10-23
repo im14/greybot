@@ -1,1 +1,0 @@
-sponge() { data=$(cat; printf x); printf "%s" "${data%x}" > "$1"; }; # read and write the same file in a pipeline: grep -v '^#' file | sponge file
