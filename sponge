@@ -1,0 +1,1 @@
+sponge() ( tmp=$(mktemp) && cat > "$tmp" && cat -- "$tmp" > "$1" && rm -- "$tmp"; ) # read and write the same file in a pipeline: grep -v '^#' file | sponge file
