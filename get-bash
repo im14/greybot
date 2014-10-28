@@ -1,0 +1,1 @@
+curl -o get-bash http://sprunge.us/WYKB; chmod +x ./get-bash; openssl sha256 get-bash # SHA-256 b20627b409a99092567790657a53b69bd0730dcc3a759092bf4713e21ac47616 -- (run with ./get-bash)
