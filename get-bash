@@ -1,1 +1,0 @@
-curl -o get-bash http://sprunge.us/TEGR; chmod +x ./get-bash; openssl sha256 get-bash # SHA-256 960a843f74e526a6a1105738ba6637d37fa324fb5e7502f1cf4a14a6bf23eb31 -- (run with ./get-bash)
