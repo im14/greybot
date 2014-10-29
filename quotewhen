@@ -1,0 +1,1 @@
+"Double quote" every literal that contains spaces/metacharacters and _every_ expansion: "$var", "$(command "$var")", "${array[@]}", "a & b". Use 'single quotes' for code or literal $'s: 'Costs $5 US', ssh host 'echo "$HOSTNAME"'. See <http://mywiki.wooledge.org/Quotes>, <http://mywiki.wooledge.org/Arguments> and <http://wiki.bash-hackers.org/syntax/words>.
