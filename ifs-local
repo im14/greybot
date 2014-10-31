@@ -1,0 +1,1 @@
+Do not change the shell's ongoing value of IFS, rather only apply different values in the prefix environment of the individual commands that need it. So use 'IFS=^ read foo' instead of 'IFS=^ ; read foo' (or 'IFS=^' (newline) 'read foo')
