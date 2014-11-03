@@ -1,0 +1,1 @@
+ctime stands for "change time", not "creation time". Most file systems do NOT store a file's creation time at all. On those that do, you need nonstandard tools to retrieve it. Try "-newerBB" in GNU find for example.
