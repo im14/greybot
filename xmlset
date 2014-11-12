@@ -1,0 +1,1 @@
+Update an XML value: xmlstarlet ed -P --update 'staff/person[@name="bob"]' -v 80000 <<< '<staff><person name="bob">70000</person></staff>' # use -L to update a file in-place.
