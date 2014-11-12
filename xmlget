@@ -1,0 +1,1 @@
+Retrieve an XML value: xmlstarlet sel -t -v 'staff/person[@name="bob"]' <<< '<staff><person name="bob">70000</person></staff>'
