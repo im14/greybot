@@ -1,0 +1,1 @@
+'expr' is a program used in ancient shell code to do math. In Posix shells like bash, use $(( expression )). In bash, ksh88+, mksh/pdksh, or zsh, you can also use '(( expression ))' or 'let expression'.
