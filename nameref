@@ -1,0 +1,1 @@
+namerefs (typeset -n) are a ksh93 feature that work like C++ references for passing data structures between functions. Bash 4.3+ and mksh have a limited but usable version of namerefs. http://mywiki.wooledge.org/BashFAQ/006 https://gist.github.com/ormaaj/5682807
