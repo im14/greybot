@@ -1,0 +1,1 @@
+After you've written a script, if you're going to use it again, move it to ~/bin/ and if necessary create that directory and edit .*profile to add it to PATH)
