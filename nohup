@@ -1,0 +1,1 @@
+nohup is a hacky wrapper that will execute a process while redirecting its output and preventing SIGHUP from reaching it (some implementations ignore additional signals). In bash, you probably want disown instead: ''command ... & disown''. Alternately, run your commands inside screen or tmux.
