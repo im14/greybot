@@ -1,0 +1,1 @@
+Command Substitution: "$(cmd "foo bar")" causes the command 'cmd' to be executed with the argument 'foo bar' and "$(..)" will be replaced by the *output*. See http://mywiki.wooledge.org/BashFAQ/002 and http://mywiki.wooledge.org/CommandSubstitution
