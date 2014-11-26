@@ -1,0 +1,1 @@
+openssh's "forced command" receives an SSH_ORIGINAL_COMMAND set to the command passed to "ssh". forced-commands SHOULD NOT try to parse shell code from it. Use it only for entirely custom protocols (akin to internal-sftp) or a non-restrictive wrapper.
