@@ -1,0 +1,1 @@
+checkbot is an IRC frontend for !shellcheck. It responds to !check [url/snippet], and automatically to pastebin links with selected errors (/msg checkbot quiet).
