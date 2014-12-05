@@ -1,0 +1,1 @@
+# bcdiv() { local n=$1 d=$2 scale=${3:-10} r="$(($1/$2)).";while ((scale-- > 0)) && ((n%=d,n*=10)); do r+="$((n/d))"; done; echo "${r%.}"; }; bcdiv 1 3
