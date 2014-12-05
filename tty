@@ -1,0 +1,1 @@
+"tty" originally stood for teletype, a primitive keyboard+printer which was the forerunner of the ASCII terminal. Nowadays it is used generically to mean "some kind of terminal", usually a pseudoterminal (X terminal emulator, Linux console, etc.). http://www.linusakesson.net/programming/tty/
