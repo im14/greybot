@@ -1,0 +1,1 @@
+To prepend a string to a file, use cat with the stdin flag: cat - origfile <<< "string" > newfile && mv newfile origfile
