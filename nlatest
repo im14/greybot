@@ -1,0 +1,1 @@
+N latest, requires GNU find + sort: nlatest() { local file; find "${2:-.}" -maxdepth 1 -type f -printf '%T@ %p\0' | sort -znr | for (( i=0; i<$1; i++ )); do IFS= read -rd '' file || break; echo "${file#* }"; done; }
