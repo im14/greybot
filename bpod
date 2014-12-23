@@ -1,0 +1,1 @@
+Big Pipeline Of Death: if your command looks like this: command | grep | sed | awk | tr | ... YOU'RE DOING IT WRONG
