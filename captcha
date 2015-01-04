@@ -1,0 +1,1 @@
+# declare -A ops=( ['plus']=+ ['minus']=- ['times']=* ['divided-by']=/ ) ; opnames=( ${!ops[@]} ) ; a=$((RANDOM%256+1)) b=$((RANDOM%32+1)) opname=${opnames[RANDOM%${#opnames[@]}]} op=${ops[$opname]} ; declare -p ops opnames a b op opname ; read -p "What is $a $opname $b? " ans ; [[ $ans != *[^0-9]* ]] && (( ans==($a ${op:-,} $b) )) || exit
