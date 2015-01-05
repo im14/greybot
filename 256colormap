@@ -1,0 +1,1 @@
+E=echo\ ;P=printf\ ;M=$'\e[0m';a(){ $P"\e[38;5;2${z}5;48;5;${1}m %4d $M" $1;};Z=$E$M;for i in 16 93 160;do ((r=(n=\!n)*2-1));for((x=0;x<6;x++,i+=r)) do for((j=0;L=(i+(R=(j/6?17-j:j))*6),z=(R%6>1?3:5),j<12;j++))do a $L;done;$E;done;done;z=5;for i in {0..23};do a $[i+232];((i==11))&&$Z;done;for i in {0..15};do ((i==8||\!i))&&$P'\n%*s' 12;a $i;done;$E
