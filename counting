@@ -1,0 +1,1 @@
+Basic loops: Bash/Zsh/ksh93: «for ((i = 0; i < 10; i++)); do ...; done», For small constants: «for i in {0..9}; do ...; done» ksh: «i=0; while ((i++ < 10)); do ...; done», POSIX: «i=0; while [ "$i" -lt 10 ]; do ...; i=$((i + 1)); done» http://mywiki.wooledge.org/BashGuide/TestsAndConditionals#Conditional_Loops
