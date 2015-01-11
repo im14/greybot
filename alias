@@ -1,1 +1,0 @@
-An alias is a short text macro which is expanded when it is the first word of a command. Usually used for quick shortcuts (alias ll='ls -l'). Cannot take arguments like a function. Use a function instead (e.g. mcd() { mkdir -p "$1" && cd "$1"; })
