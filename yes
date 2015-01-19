@@ -1,0 +1,1 @@
+yes endlessly prints 'y' (or whatever argument it is specified with) followed by a newline to stdout. Useful for sending confirmations. e.g. yes | fsck
