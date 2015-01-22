@@ -1,1 +1,0 @@
-Add -p to your shebang line to prevent BASH_ENV and exported functions to interfere with your script. It activates privileged mode. See the manpage for details.
