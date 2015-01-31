@@ -1,0 +1,1 @@
+A csv file contains "Comma Separated Values". It represents records as lines and fields delimited by commas (though the delimiter can vary). Very simple CSV files can be parsed using a ''while IFS=, read -a fields'' loop. For more complete support, see <http://to.lhunath.com/bashlib#L550>, <http://docs.python.org/library/csv.html> or the csvtool / csvkit commands.
