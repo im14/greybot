@@ -1,0 +1,1 @@
+If you're using $? and not immediately assigning it to a variable, you're DoingItWrong. Either you're testing it immediately (in which case you don't need $? at all, see ![$? ) or else you're doing something else and then using it, in which case the value of $? will be changed before you use it.
