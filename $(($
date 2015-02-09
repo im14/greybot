@@ -1,0 +1,1 @@
+# six=1+5 nine=8+1; echo $(($six * $nine)) vs $((six * nine))
