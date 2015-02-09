@@ -1,0 +1,1 @@
+Redirect stdout, like > but ignores noclobber (set -C). See http://wiki.bash-hackers.org/syntax/redirection
