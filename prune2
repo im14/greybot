@@ -1,0 +1,1 @@
+A hard problem: prune matched subtrees, also discard the root of the search and roots of non-pruned subtrees: mkdir -p tmp/{aa,bb}; touch tmp/{aa/aa,bb/{aa,bb}}; find ./tmp \( -type d -name aa \) -prune -o \( -path './tmp/*/*' -print \)
