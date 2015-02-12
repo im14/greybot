@@ -1,0 +1,1 @@
+$(echo ...) and echo $(...) are both pointless. Drop the echo and $(), just write ...: rm "$(echo myfile)" -> rm myfile --- echo "$(df -h)" -> df -h; http://www.iki.fi/era/unix/award.html#echo
