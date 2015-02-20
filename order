@@ -1,0 +1,1 @@
+See http://to.lhunath.com/bashlib::order for a sort that can order arrays, select first n, and use a custom or predefined comparator (eg. number/random/mtime).
