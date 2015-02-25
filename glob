@@ -1,0 +1,1 @@
+Globs are shell patterns that can be used for matching strings or expanding pathnames: [[ $name = Bob* ]], rm *.txt -- http://mywiki.wooledge.org/glob
