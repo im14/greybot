@@ -1,1 +1,0 @@
-Cron is used for scheduling recurring jobs. at(1) is used for scheduling one-time jobs. crontab -e, /etc/crontab or /etc/periodic are places where you can configure jobs. The most common problems with cron jobs %'s in a crontab (escape, either with date +%%Y or date +\%Y), commands that rely on $DISPLAY, and having a different environment (eg. PATH/SHELL). See man 5 crontab.
