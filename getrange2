@@ -1,0 +1,1 @@
+# getrange2 () { local input=() nums=(); IFS=, read -ra input <<< "$1"; for i in "${input[@]}";do if [[ $i =~ ^[[:digit:]]+-[[:digit:]]+$ ]];then eval "nums+=({${i%-*}..${i#*-}})";elif [[ $i =~ [[:digit:]]+ ]];then nums+=("$i");else echo "Invalid number or range: $i">&2;fi done;printf '%s\n' "${nums[*]}";};getrange2 1,3,8,9-15,23,4
