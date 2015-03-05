@@ -1,0 +1,1 @@
+In bash 4, when the globstar shell option is enabled ( shopt -s globstar ), the glob ** expands to all files and directories found recursively under the current directory, and **/ to all directories. Combinations like foo/**/*.txt work, but **.txt and foo** do not.
