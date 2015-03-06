@@ -1,0 +1,1 @@
+opening a fifo for writing blocks until there's a reader, and writing after the reader has closed causes you to receive SIGPIPE. Conversely, opening a fifo for reading or for read/write does nor block, but reading from it subsequently waits for a writer, and reading after the writer is gone gets EOF
