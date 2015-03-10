@@ -1,0 +1,1 @@
+is not bas. make preprocesses commands and then gives them to the shell, one line at a time. Ask in ##workingset and read http://www.gnu.org/software/make/manual/ or the help documents of your version of make
