@@ -1,0 +1,1 @@
+Makefiles consist of rules, each comprising a build-pattern and some commands. Those commands are macro-expanded similarly to the shell's parameter expansions, and then given to the shell, one line at a time. So anything involving shell variables has to be written with $$ instead of $, and with semicolons instead of newlines. Also see !make
