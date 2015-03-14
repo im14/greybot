@@ -1,0 +1,1 @@
+greybot supplies canned responses, factoids and FAQ links with "!". evalbot/shbot provide a command evaluation via "#" (and varieties). checkbot provides a syntax checker with the !check command.
