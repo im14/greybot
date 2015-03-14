@@ -1,0 +1,1 @@
+Indented Here documents. Here documents started with <<- will ignore preceding tabs on each line, allowing you to indent your here documents nicely. Refer to << for general information on Here documents. Note that only TABs will work - spaces will not. Some editors can replace the TAB character with spaces, so be careful.
