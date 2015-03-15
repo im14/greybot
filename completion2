@@ -1,0 +1,1 @@
+the completion facility is built-in, but it needs to be told the appropriate details for each command. The *package* called "bash-completion" is a grab-bag of such definitions, of rather varying quality. But you can simply put your own definitions in your .bashrc to override any faulty or missing ones
