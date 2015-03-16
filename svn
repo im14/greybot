@@ -1,0 +1,1 @@
+If you're considering removing .svn directories, first read "svn --help export". If you're not convinced, find . -name .svn -prune -exec rm -rf {} +
