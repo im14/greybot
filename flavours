@@ -1,0 +1,1 @@
+There are many "flavours" of regular expressions. They differ in their syntax and in the features they offer. You use the wrong flavour for the tool you chose. bash itself and awk use Extended Regular Expressions (ERE), sed, grep and ed by default use Basic Regular Expressions (BRE). Also see #regex and http://bit.ly/1czg17g
