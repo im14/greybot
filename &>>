@@ -1,0 +1,1 @@
+''&>file'' is equivalent to ''>file 2>&1'' and is bash/ksh specific. In bash 4, there is also ''&>>file''. For portability, it is a good idea to just write it out fully.
