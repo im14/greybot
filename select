@@ -1,0 +1,1 @@
+select fruit in Banana Strawberry; do eat "$fruit"; done # 'select' lets the user pick an option and runs the body with the user's choice assigned to the variable.
