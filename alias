@@ -1,0 +1,1 @@
+An alias is a small in-line command name text replacement. They are not commands and cannot take arguments. Only use aliases for expanding things like default command switches: alias l='ls -l'. For everything else, use a function instead: del() { mv -i "$@" ~/.trash; }
