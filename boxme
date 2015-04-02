@@ -1,0 +1,1 @@
+# boxme() { width=72; printf -v line "%*s" "$width"; printf -v center "%s %$(( $(( width / 2 )) + $(( ${#1} / 2 )) ))s %$(( width - ( $(( ( width - 1 ) / 2 )) + $(( ${#1} / 2 )) ) ))s" \# "$1" \#; printf '%s\n' "# ${line// /=} #" "$center" "# ${line// /=} #"; }; boxme "I Love you 2 don't you know!"
