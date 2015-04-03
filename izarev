@@ -1,1 +1,0 @@
-# a=abcdef; eval eval printf %s '"\"\${var:"'{${#a}..0}':1}\"' "$'$\'\\n\''"
