@@ -1,0 +1,1 @@
+script(1) allows you to record an interactive session in a terminal. Also, you can use it instead of expect(1) for simple tasks, because it creates a pty.
