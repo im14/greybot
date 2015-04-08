@@ -1,0 +1,1 @@
+[[ $var != a || $var != b ]] is always true. Did you forget De Morgan's Laws? [[ ! ($var = a || $var = b) ]] <=> [[ $var != a && $var != b ]]
