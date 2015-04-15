@@ -1,0 +1,1 @@
+colors() { local arr=$1 arg args; shift; for arg; do args+=("$arg" bel); done; IFS=$'\7' read -ra "$arr" < <(printf %s\\n "${args[@]}" | tput -S); }; colors fg 'setaf '{0..9}; typeset -p fg
