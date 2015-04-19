@@ -1,0 +1,1 @@
+Dereference last element of an array - Bash 4.2 or later: "${array[-1]}", <= 4.1.x: "${array[@]:(-1)}". Since 4.3 you can assign to negative values, if the element already exists.
