@@ -1,0 +1,1 @@
+# headtail(){ awk -v n="$1" 'i++ < n ; { a[NR%n]=$0 } END { for (i=NR-(n-1); i<=NR; i++) print a[i%n] }'; }; printf '%s\n' {1..3} | headtail 1 # head reads data in chunks. if stdin is not seekable, it can't reset the seek point
