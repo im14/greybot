@@ -1,0 +1,1 @@
+3# for _ in $(echo <(: {1..26})); do printf \\"$(printf %o $((128-${_##*/})))"; done; echo
