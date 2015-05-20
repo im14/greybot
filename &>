@@ -1,0 +1,1 @@
+&> is a bash-specific feature. «&>file» is equivalent to «>file 2>&1». There is no &>> until Bash4. Use «>>file 2>&1» instead. We recommend not using &> or &>> in scripts, because it will break some valid scripts (see !badredir), and is an unintuitive syntax for beginners.
