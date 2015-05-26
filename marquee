@@ -1,0 +1,1 @@
+marquee() { local i=${COLUMNS:=$(tput cols)} w=${#1}; while ((i-- > w)); do printf '\r%*s ' "$i" "$1"; sleep 0.02; done; printf '\r'; }
