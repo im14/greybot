@@ -1,0 +1,1 @@
+exec > >(trap : 1 2 3 15 ; while IFS= read -r x ; do printf '%(%F%T)T %s\n' -1 "$x" ; done >>/var/log/mylog) 2>&1 # requires bash4.2 or later
