@@ -1,0 +1,1 @@
+To define: funcname() { your code here; } ## To use: funcname arg1 arg2 ... The "function" keyword isn't portable. ## http://mywiki.wooledge.org/BashGuide/CompoundCommands#Functions
