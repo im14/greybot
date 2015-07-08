@@ -1,0 +1,1 @@
+center() { printf "%*s\n" $(( (COLUMNS+${#1}) /2 )) "$1"; }
