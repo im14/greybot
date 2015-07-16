@@ -1,0 +1,1 @@
+"declare -n" looks like a great idea but it doesn't work. See http://mywiki.wooledge.org/BashFAQ/048 (under "The problem with bash's name references").
