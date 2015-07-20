@@ -1,0 +1,1 @@
+${dev[${dev='dev[1>(${dev[dev]})]'}]} # requires bash <4.3
