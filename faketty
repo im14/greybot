@@ -1,0 +1,1 @@
+Quick way to make programs believe that they're reading/writing from/to a terminal: function faketty { script -qfc "$(printf "%q " "$@")" /dev/null; }
