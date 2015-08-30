@@ -1,0 +1,1 @@
+<>foo is the same as 0<>foo. To redirect both stdin and stdout to the same file, you need <>foo >&0
