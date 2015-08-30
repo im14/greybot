@@ -1,0 +1,1 @@
+# n=117 b=0; e=0 n2b="b+=n/2**e%2*10**e,2**e++>n||n2b" let n2b; printf "%d == 2#%d\n" "$n" "$b" # convert n to binary
