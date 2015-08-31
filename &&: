@@ -1,0 +1,1 @@
+cmd && : prevents set -e from killing the shell, and keeps intact the exit code of cmd
