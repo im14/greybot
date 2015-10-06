@@ -1,0 +1,1 @@
+Unset undefines a variable or function from the current shell process. See: http://wiki.bash-hackers.org/commands/builtin/unset http://fvue.nl/wiki/Bash:_Unset . Testing if a variable is set: [[ ${var+_} ]]. See !isset
