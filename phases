@@ -1,0 +1,1 @@
+When reading a command, the shell first does quote and backslash removal, then $ expansions (on parts that weren't single-quoted or escaped), then wordsplitting and wildcard expansions (on parts that weren't quoted or escaped). That's why $( echo '"foo * bar"' ) does not do what you expected
