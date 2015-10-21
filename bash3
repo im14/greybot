@@ -1,0 +1,1 @@
+Bash version 3 is long unmaintained and showing its age. It omits numerous critical bug fixes and enhancements including associative arrays. If you can't upgrade for licensing or other reasons, you should immediately begin planning migration to ksh93, zsh, or mksh. All 3 are maintained, non-copyleft free software with substantial bash feature parity.
