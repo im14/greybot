@@ -1,0 +1,1 @@
+Brace and sequence expansion: {a,b,c}1 and {a..c}1 expand to a1 b1 c1, {a..c}{1..3} expands to a1 a2 a3 b1 b2 b3 c1 c2 c3. http://wiki.bash-hackers.org/syntax/expansion/brace http://mywiki.wooledge.org/BraceExpansion
