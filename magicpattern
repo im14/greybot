@@ -1,0 +1,1 @@
+# touch {,\\}x{,\\}\[y]; ls; for x in {b,d}ash; do "$x" /dev/fd/3 "$x"; echo; done 3<<<'x=\\x* IFS=; printf "$1: "; printf "%s " $x'
