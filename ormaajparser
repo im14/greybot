@@ -1,0 +1,1 @@
+# bash -O expand_aliases -O lastpipe -c 'compgen -A keyword | while IFS= read -r x; do printf -v "BASH_ALIASES[\$x]" "echo %q " "$x"; done; eval "for x in how to write a bash parser; do :D; done"'
