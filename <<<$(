@@ -1,0 +1,1 @@
+This creates a temporary file and dumps the entire output of the command substitution into it before beginning execution of any commaand that reads from the herestring. It is almost always a useless construct. You probably want to use a simple pipe instead unless you have some specific reason for wanting this.
