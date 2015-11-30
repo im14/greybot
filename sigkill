@@ -1,0 +1,1 @@
+SIGKILL is exactly the same as SIGTERM except that it doesn't invoke the process' signal handlers. You should *never* use it unless you *know* the process is bugging out in its signal handler. See http://stackoverflow.com/a/690631
