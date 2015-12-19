@@ -1,0 +1,1 @@
+curl 'http://www.example.com/thing-[0-10].html' -o '#1.html'
