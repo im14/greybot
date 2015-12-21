@@ -1,1 +1,0 @@
-add @() to turn a string into a glob: shopt -s failglob; cmd file@()
