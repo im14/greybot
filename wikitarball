@@ -1,0 +1,1 @@
+# printf 'wget http://wooledge.org/mywiki.wooledge.org-%(%Y%m)T01.tar.bz2\n'
