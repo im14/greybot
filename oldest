@@ -1,0 +1,1 @@
+Find the oldest modified file in a directory: oldest() { local file old; for file in "${1:-.}"/*; do [[ $file -ot $old ]] && old=$file; done; printf '%s\n' "$old"; } ## Usage: oldest [dir]
