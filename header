@@ -1,0 +1,1 @@
+Always put this code on the first line of a bash script. We usually assume you've done this because scripts that depend on them are common: ${BASH_VERSION+'false'} || shopt -s extglob lastpipe 2>/dev/null
