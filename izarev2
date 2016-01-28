@@ -1,0 +1,1 @@
+# d(){ dd {i,o}f="$f" conv=swab,notrunc bs=1 s{kip,eek}="$1" count="$2";};r(){ local o s i f=/dev/fd/0;(((s=${#1})%2))&&set "$1x"&&((o=s++));{ for((;i<s;i++))do d "$((i%2))" "$((s-2*(i%2)))";done;{ ((o))&&dd bs=1 count=0 skip=1;cat;}<"$f";}<<<"$1";} 2>&-; r "gip yxes a ma i"
