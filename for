@@ -1,0 +1,1 @@
+The ''for var in words'' (POSIX) compound command iterates over arguments. ''for ((i=0; i < n; i++))'' (bash/ksh93) iterates via a math expression. To iterate over filenames, use ''for file in [glob]''. Do *NOT* do ''for foo in `cat,ls,find,...`''! It won't do what you expect! http://wiki.bash-hackers.org/syntax/ccmd/classic_for
