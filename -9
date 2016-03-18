@@ -1,0 +1,1 @@
+Do NOT use SIGKILL (kill -9) to terminate processes. All processes will terminate in response to the default SIGTERM. If they don't terminate instantly, that's because they're busy cleaning up. If you interrupt them, you break them. See http://stackoverflow.com/a/690631/347411 and http://turnoff.us/geek/dont-sigkill/
