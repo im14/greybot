@@ -1,0 +1,1 @@
+A python script to print the URLs in a URL, one per line. Requires BeautifulSoup (bs4). http://wooledge.org/~greg/urls
