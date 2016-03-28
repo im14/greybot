@@ -1,0 +1,1 @@
+portable way to test if FOO is an env var: awk 'BEGIN { exit ! ("FOO" in ENVIRON) }'
