@@ -1,0 +1,1 @@
+If your script uses cut, head or sed to operate on strings, rewrite it.
