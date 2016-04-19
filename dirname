@@ -1,0 +1,1 @@
+dirname(1) removes the filename part of a pathname (/a/b/c -> /a/b). A parameter expansion can do it cleaner and *much* faster: "${path%/*}". Beware the difference for arguments without /
