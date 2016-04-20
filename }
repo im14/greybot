@@ -1,0 +1,1 @@
+} is not a keyword or shell metacharacter. It only terminates a command group when it's the first word in a new line/command. In a one-liner, use { a; } not { a }
