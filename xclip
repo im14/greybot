@@ -1,0 +1,1 @@
+xclip is a tool to manipulate the X11 clipboard. xclip -o to print the clip and -i to set it. Not bash.
