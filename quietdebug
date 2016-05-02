@@ -1,0 +1,1 @@
+( trap '{ printf -- %s\\n "$BASH_COMMAND" {BASH_XTRACEFD}>&-; } {BASH_XTRACEFD}>&"$devnull"' DEBUG {devnull}>/dev/null; set -x; : blah debug ) # xtrace with hidden printf trace in DEBUG trap
