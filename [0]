@@ -1,0 +1,1 @@
+"$foo" and "${foo[0]}" are always equivalent, no matter what kind of variable foo is. If you want a whole array, use "${foo[@]}" not "$foo".
